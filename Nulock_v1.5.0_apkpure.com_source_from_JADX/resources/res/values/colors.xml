@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="base_bg">#a5dfe0</color>
+    <color name="menu_base_bg">#0b0b0b</color>
+    <color name="menu_line_bg">#2d2d2d</color>
+    <color name="title_bg">#1a3f91</color>
+    <color name="title_line">#799318</color>
+    <color name="general_line_bg">#0b0b0b</color>
+    <color name="privacyandshare_line_bg">#8e8e8e</color>
+    <color name="mytext">#a39f97</color>
+    <color name="mywhite">#dddddd</color>
+    <color name="myblack">#3e3d3d</color>
+    <color name="mygray">#b6b6b6</color>
+    <color name="mygray2">#cacaca</color>
+    <color name="myorange">#fe8100</color>
+    <color name="myline">#c8c8c8</color>
+    <color name="mygreen">#30d705</color>
+    <color name="myred">#e20630</color>
+    <color name="mygrayline">#eaeaea</color>
+    <color name="myblue">#109ce4</color>
+    <color name="mypopubasebg">#efefef</color>
+    <color name="mypopuitemselect">#dddddd</color>
+    <color name="mylinedialog">#d3d3d3</color>
+    <color name="mypopubg">#90000000</color>
+    <color name="sliding_menu_item_down">#ff39393b</color>
+    <color name="sliding_menu_item_release">#00000000</color>
+    <color name="sliding_menu_background">#ff2c2c2e</color>
+    <color name="sliding_menu_body_background">#fff5f5f5</color>
+</resources>

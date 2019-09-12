@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:background="@color/mypopubg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout style="@style/myPopu">
+        <TextView android:textColor="@color/myblack" android:gravity="center" android:padding="10dp" android:layout_height="80dp" android:text="@string/removedevice" style="@style/myMaxtext_match_w"/>
+        <TextView style="@style/myPopu_line"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textColor="@color/myblue" android:gravity="center" android:id="@+id/deldevice_enter" android:background="@drawable/baseitem_left_bottom_bg" android:text="@string/removeenter" android:layout_weight="1" style="@style/myMaxtext_match"/>
+            <TextView style="@style/myline_h"/>
+            <TextView android:textColor="@color/myblue" android:gravity="center" android:id="@+id/deldevice_cancer" android:background="@drawable/baseitem_right_bottom_bg" android:text="@string/removecancer" android:layout_weight="1" style="@style/myMaxtext_match"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

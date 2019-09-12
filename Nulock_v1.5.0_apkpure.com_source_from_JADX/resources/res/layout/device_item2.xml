@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="90dp">
+    <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="90dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="20dp">
+                <TextView android:textColor="@color/mygreen" android:gravity="center_vertical" android:id="@+id/device_item_lockname" android:text="lock1" android:layout_weight="1" style="@style/myMaxtext_match"/>
+                <TextView android:textColor="@color/mygreen" android:gravity="center_vertical" android:id="@+id/device_item_mac" android:visibility="gone" android:text="mac" style="@style/myMaxtext_match"/>
+                <TextView android:textColor="@color/mygreen" android:gravity="center_vertical" android:id="@+id/device_item_status" android:text="unlock" android:layout_weight="1" style="@style/myMaxtext_match"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

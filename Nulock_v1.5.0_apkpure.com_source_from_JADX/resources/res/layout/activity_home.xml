@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/home_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/title_bg" android:layout_width="match_parent" android:layout_height="50dp">
+        <Button android:id="@+id/btn_device_info_back" android:background="@drawable/title_back" android:layout_width="wrap_content" android:layout_height="50dp"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/home_device" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="70dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/lock"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="20dp">
+                    <TextView android:textSize="16sp" android:textColor="@color/mygreen" android:gravity="center_vertical" android:id="@+id/home_lockname" android:text="name" android:layout_weight="1" style="@style/myMaxtext_match"/>
+                    <LinearLayout android:gravity="center_vertical" android:layout_weight="1" style="@style/myMaxtext_match">
+                        <TextView android:textSize="16sp" android:textColor="@color/myblack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power"/>
+                        <TextView android:textSize="16sp" android:textColor="@color/myblack" android:id="@+id/home_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="gone" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_lock_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_lock" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_lock_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_lock" android:layout_toRightOf="@+id/home_action_lock_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/home_action_lock" android:background="@drawable/lock_bg" android:layout_width="70dp" android:layout_height="35dp" android:text="@string/main_action_lock" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginTop="3dp" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_unlock_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_unlock" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_unlock_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_unlock" android:layout_toRightOf="@+id/home_action_unlock_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/home_action_unlock" android:background="@drawable/lock_bg" android:layout_width="70dp" android:layout_height="35dp" android:text="@string/main_action_unlock" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginTop="3dp" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_autounlock_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_autounlock" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_autounlock_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_autounlock" android:layout_toRightOf="@+id/home_action_autounlock_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:id="@+id/home_action_autounlock" android:background="@drawable/action_off" android:layout_width="70dp" android:layout_height="35dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="visible" android:layout_marginTop="3dp" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_vibration_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_vibration" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_vibration_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_vibration" android:layout_toRightOf="@+id/home_action_vibration_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:id="@+id/home_action_vibration" android:background="@drawable/action_off" android:layout_width="70dp" android:layout_height="35dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginTop="3dp" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_notify_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_notify" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_notify_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_backnotify" android:layout_toRightOf="@+id/home_action_notify_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:id="@+id/home_action_notify" android:background="@drawable/action_off" android:layout_width="70dp" android:layout_height="35dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/home_action_changepwd" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginTop="3dp" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_changepwd_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_changepwd" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_changepwd_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_changepwd" android:layout_toRightOf="@+id/home_action_changepwd_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/mybaseitem_normal"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/home_action_changename" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginTop="3dp" style="@style/mybaseitem">
+            <ImageView android:id="@+id/home_action_changename_img" android:layout_width="35dp" android:layout_height="35dp" android:src="@drawable/main_action_changename" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/home_action_changename_tag" android:layout_marginLeft="15dp" android:text="@string/main_action_changename" android:layout_toRightOf="@+id/home_action_changename_img" android:layout_centerVertical="true" style="@style/myMaxtext_wrap"/>
+            <TextView android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/mybaseitem_normal"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

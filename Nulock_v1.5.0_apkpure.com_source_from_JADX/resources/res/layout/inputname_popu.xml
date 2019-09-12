@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/modifyname_popu_layout" android:background="#90000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_centerInParent="true" style="@style/myPopu">
+        <TextView android:textColor="@color/myblack" android:gravity="center" android:layout_height="50dp" android:text="@string/pleaseinputdevicename" style="@style/myMaxtext_match_w"/>
+        <EditText android:gravity="center_vertical" android:id="@+id/inputname_popu_name" android:background="@drawable/edit_bg2" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_height="40dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp" android:maxLength="12" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ " style="@style/MyEditText"/>
+        <TextView style="@style/myline_w"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+            <TextView android:textColor="@color/myblue" android:gravity="center" android:id="@+id/inputpasswd_popu_cancer" android:background="@drawable/baseitem_bg" android:layout_height="50dp" android:text="@string/cancer" android:layout_weight="1" style="@style/myMaxtext_match"/>
+            <TextView style="@style/myline_h"/>
+            <TextView android:textColor="@color/myblue" android:gravity="center" android:id="@+id/inputpasswd_popu_enter" android:background="@drawable/baseitem_bg" android:layout_height="50dp" android:text="@string/enter" android:layout_weight="1" style="@style/myMaxtext_match"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
