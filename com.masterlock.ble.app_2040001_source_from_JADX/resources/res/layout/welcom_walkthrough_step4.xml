@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.welcome.WalkthroughStepView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/birch" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="center" android:id="@+id/welcome_title" android:paddingTop="@dimen/vertical_space" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/step_4_title" style="@style/TextAppearance.AppCompat.Title"/>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/welcome_body" android:paddingLeft="@dimen/space_m1" android:paddingRight="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/step_4_body" android:layout_weight="1" style="@style/TextAppearance.AppCompat.Subhead"/>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/welcome_img_container" android:background="@color/birch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-150dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/welcome_img_last" android:layout_width="match_parent" android:layout_height="360dp" android:layout_marginLeft="2dp" android:layout_marginTop="71dp" android:src="@drawable/img_walktrough_4"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/wel" android:layout_width="match_parent" android:layout_height="500dp" android:src="@drawable/img_iphone"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.welcome.WalkthroughStepView>

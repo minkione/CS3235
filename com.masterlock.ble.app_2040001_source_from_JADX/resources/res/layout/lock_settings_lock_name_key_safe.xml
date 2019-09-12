@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.settings.keysafe.LockNameKeySafeView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/lock_name_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingTop="@dimen/space_m0" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/device_id_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme.BodyPanel">
+            <TextView android:paddingTop="@dimen/space_m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_lock_body" style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/lock_name_floating_edit_text" android:paddingTop="@dimen/space_m4" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/name_lock_hint" android:inputType="text" android:imeOptions="actionDone"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <TextView android:id="@+id/device_id" android:paddingTop="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_m0"/>
+            <TextView android:paddingTop="@dimen/space_m3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lock_suggestion_list_title"/>
+            <TextView android:id="@+id/lock_suggestion_list_first" android:paddingTop="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_m2"/>
+            <TextView android:id="@+id/lock_suggestion_list_second" android:paddingTop="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_m2"/>
+            <TextView android:id="@+id/lock_suggestion_list_third" android:paddingTop="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/space_m2"/>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/footer_height" style="?attr/buttonBarStyle">
+        <Button android:id="@+id/btn_save_name" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/settings_name_save" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.settings.keysafe.LockNameKeySafeView>

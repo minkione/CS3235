@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.signup.AccountDetailsView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/account_sign_up_sign_in_screens_background" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="100" android:animateLayoutChanges="true">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@+id/scrollview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/continue_button" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_logo_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="100">
+                        <ImageView android:id="@+id/iv_logo" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/graphic_logo_white" android:layout_weight="40" android:layout_centerHorizontal="true"/>
+                    </LinearLayout>
+                    <com.masterlock.ble.app.view.CustomFontTextView android:textStyle="bold" android:layout_gravity="center" android:text="@string/create_account_title" android:layout_below="@+id/ll_logo_container" android:layout_centerHorizontal="true" android:textAllCaps="true" style="@style/AppTheme.HeaderLabel"/>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" style="@style/AppTheme.BodyPanel">
+                    <EditText android:id="@+id/first_name_edit_text" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/sign_up_2016_first_name_required" android:inputType="textCapWords" android:imeOptions="actionNext" style="@style/CustomEditTextStyle"/>
+                    <EditText android:id="@+id/last_name_edit_text" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/last_name_hint" android:inputType="textCapWords" style="@style/CustomEditTextStyle"/>
+                    <EditText android:id="@+id/username_edit_text" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/sign_up_2016_username_required" android:inputType="text" style="@style/CustomEditTextStyle"/>
+                    <EditText android:id="@+id/password_edit_text" android:longClickable="false" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/sign_up_2016_password_required" android:inputType="textPassword" style="@style/CustomEditTextStyle"/>
+                    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m2">
+                        <CheckBox android:layout_gravity="center" android:id="@+id/s_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_m0" android:layout_centerVertical="true"/>
+                        <TextView android:textColor="@color/white" android:id="@+id/tv_show_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_up_2016_password_show" android:layout_toRightOf="@+id/s_password" android:layout_centerVertical="true" style="@style/TextAppearance.AppCompat.Medium"/>
+                    </RelativeLayout>
+                    <LinearLayout android:id="@+id/rl_password_strength_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m2">
+                        <TextView android:textStyle="bold" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/txt_password_strength" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/TextAppearance.AppCompat.Medium"/>
+                        <ImageView android:id="@+id/iv_password_tips_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_info_details" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:textColor="@color/white" android:id="@+id/continue_button" android:background="@drawable/button_shape_transparent_stroke_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/space_m0" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/space_m2" android:text="@string/create_account" android:layout_alignParentBottom="true" android:textAllCaps="false" style="@style/TextAppearance.AppCompat.Medium"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.signup.AccountDetailsView>

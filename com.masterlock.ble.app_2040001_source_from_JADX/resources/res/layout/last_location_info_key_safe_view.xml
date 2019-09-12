@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.keysafe.LastLocationInfoKeySafeView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:paddingTop="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/last_known_location_description"/>
+            <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/last_known_location_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/noLocationText" android:padding="@dimen/space_m4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_current_location_data"/>
+                <FrameLayout android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@+id/last_location_map" android:visibility="gone" android:layout_width="match_parent" android:layout_height="150dp"/>
+            </FrameLayout>
+            <TextView android:paddingTop="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/address_approximate" style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+            <TextView android:id="@+id/last_location_address" android:paddingTop="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:paddingTop="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/last_location_coordinates" style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+            <TextView android:id="@+id/last_location_coordinates" android:paddingTop="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:layout_gravity="center_horizontal" android:id="@+id/last_location_clear" android:paddingTop="@dimen/space_m3" android:paddingBottom="@dimen/space_m2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_last_known_location" style="@style/FlatButtonWidget"/>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/last_location_notes_floating_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/location_notes" android:maxLength="@integer/notes_length" android:inputType="textMultiLine" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:id="@+id/last_location_notes" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/location_notes" android:maxLength="@integer/notes_length" android:inputType="textMultiLine"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/button_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/buttonBarStyle">
+        <View android:id="@+id/shadow_shim" android:layout_width="match_parent" android:layout_height="@dimen/shadow_size" android:layout_marginTop="@dimen/shadow_margin"/>
+        <Button android:id="@+id/last_location_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_location_save" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.lock.keysafe.LastLocationInfoKeySafeView>

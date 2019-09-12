@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/guest_details" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p003v7.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m1" android:layout_marginTop="@dimen/space_m2" android:layout_marginRight="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m1" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/card_corner_radius">
+        <LinearLayout android:orientation="vertical" android:id="@+id/guest_last_location_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:padding="@dimen/space_m2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_known_location_text"/>
+                <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <ImageButton android:id="@+id/location_disabled" android:background="@color/white" android:padding="@dimen/space_m1" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_location_disabled"/>
+            </LinearLayout>
+            <include layout="@layout/divider"/>
+            <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/last_known_location_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/noLocationText" android:padding="@dimen/space_m4" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_current_location_data"/>
+                <FrameLayout android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@+id/map_key_safe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="150dp"/>
+                <Button android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_clear" android:padding="@dimen/space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/localization_clear_button" style="?android:attr/borderlessButtonStyle"/>
+            </FrameLayout>
+        </LinearLayout>
+    </android.support.p003v7.widget.CardView>
+    <android.support.p003v7.widget.CardView android:layout_gravity="center" android:id="@+id/service_code_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m1" android:layout_marginTop="@dimen/space_m2" android:layout_marginRight="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m1" app:cardBackgroundColor="@color/white" app:cardCornerRadius="2dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/guest_temporary_code_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:paddingTop="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/rolling_code_label_key_safe" android:paddingStart="@dimen/space_m2" android:paddingEnd="@dimen/space_m2"/>
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Small" android:id="@+id/rolling_code_expiration" android:paddingBottom="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/space_m2" android:paddingEnd="@dimen/space_m2"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/rolling_code_container" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="8"/>
+            <include layout="@layout/divider"/>
+            <TextView android:textAppearance="@style/TextAppearance.Body2" android:id="@+id/txt_rolling_instructions" android:padding="@dimen/space" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/rolling_instructions_key_safe" android:layout_weight="1"/>
+        </LinearLayout>
+    </android.support.p003v7.widget.CardView>
+    <android.support.p003v7.widget.CardView android:layout_gravity="center" android:id="@+id/access_window_restriction_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m1" android:layout_marginTop="@dimen/space_m2" android:layout_marginRight="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m1" app:cardBackgroundColor="@color/white" app:cardCornerRadius="2dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.Body2" android:id="@+id/access_window_restricted" android:padding="@dimen/space" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </android.support.p003v7.widget.CardView>
+</LinearLayout>

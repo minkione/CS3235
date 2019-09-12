@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="account_profile">
+        <item>@string/account_profile_email</item>
+        <item>@string/account_profile_phone_number</item>
+        <item>@string/account_profile_name</item>
+        <item>@string/account_profile_time_zone</item>
+        <item>@string/account_profile_username</item>
+        <item>@string/account_profile_password</item>
+    </array>
+    <array name="account_settings">
+        <item>@string/account_setting_profile_title</item>
+        <item>@string/account_setting_language_selection_title</item>
+        <item>@string/account_setting_notifications_title</item>
+    </array>
+    <array name="progress_bar_colors">
+        <item>@color/progress1</item>
+        <item>@color/progress2</item>
+        <item>@color/progress3</item>
+    </array>
+    <array name="progress_bar_colors_alternate">
+        <item>@color/fir</item>
+        <item>@color/willow</item>
+        <item>@color/elm</item>
+        <item>@color/ash</item>
+    </array>
+    <array name="settings_dial_speed">
+        <item>@string/settings_backup</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/settings_notes</item>
+    </array>
+    <array name="settings_guest">
+        <item>@string/settings_about</item>
+        <item>@string/settings_calibrate</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/settings_notes</item>
+    </array>
+    <array name="settings_guest_no_access">
+        <item>@string/settings_about</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/settings_notes</item>
+    </array>
+    <array name="settings_owner">
+        <item>@string/settings_about</item>
+        <item>@string/settings_backup</item>
+        <item>@string/settings_calibrate</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/settings_notes</item>
+        <item>@string/settings_reset</item>
+        <item>@string/send_temp_code</item>
+        <item>@string/settings_timezone_label</item>
+        <item>@string/settings_unlock_mode</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.nav.settings.ChangeNameView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/change_email_continue_btn" android:layout_alignParentTop="true" style="@style/AppTheme.BodyPanel">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/change_name_instruction" style="@style/TextAppearance.AppCompat.Medium"/>
+                <EditText android:gravity="center" android:id="@+id/first_name_edit_text" android:layout_marginLeft="@dimen/space_m2" android:layout_marginTop="@dimen/space_m4" android:layout_marginRight="@dimen/space_m2" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/sign_up_2016_first_name_required" android:maxLength="30" android:inputType="textCapWords" android:imeOptions="actionNext" style="@style/CustomEditTextStyleBlack"/>
+                <EditText android:gravity="center" android:id="@+id/last_name_edit_text" android:layout_marginLeft="@dimen/space_m2" android:layout_marginRight="@dimen/space_m2" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/last_name_hint" android:maxLength="30" android:inputType="textCapWords" android:imeOptions="actionDone" style="@style/CustomEditTextStyleBlack"/>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:id="@+id/change_name_continue_btn" android:text="@string/settings_name_save" style="@style/Widget.AccountSettingsSaveButton"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.nav.settings.ChangeNameView>

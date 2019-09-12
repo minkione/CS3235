@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.settings.UpdateFirmwareView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="@dimen/footer_height" android:layout_marginTop="@dimen/shadow_margin" style="?attr/buttonBarStyle">
+        <Button android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_update" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/apply_primary_code" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.settings.UpdateFirmwareView>

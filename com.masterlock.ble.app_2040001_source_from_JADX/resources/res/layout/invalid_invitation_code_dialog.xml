@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/secondary_light" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="@dimen/space_m1">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:text="@string/invalid_invitation_code_title" style="@style/TextAppearance.AppCompat.Headline"/>
+        <TextView android:textColor="@color/tulip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m2" android:text="@string/invalid_invitation_body_message" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" style="@style/TextAppearance.AppCompat.Subhead"/>
+        <Button android:textStyle="bold" android:textColor="@color/white" android:id="@+id/ok_button" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ok" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" style="@style/Widget.ButtonBar"/>
+    </LinearLayout>
+</LinearLayout>

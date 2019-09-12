@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="regional_date_format">M/d/yyyy</string>
+    <string name="regional_full_date_format">M/d/yyyy h:mm a</string>
+    <string name="regional_time_format">h:mm a</string>
+    <string name="view_locks">View Locks</string>
+    <string name="wake_your_lock_title">Wake your lock to unlock it</string>
+</resources>

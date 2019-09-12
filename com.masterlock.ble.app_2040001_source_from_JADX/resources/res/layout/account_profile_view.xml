@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.nav.AccountProfileView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.p003v7.widget.RecyclerView android:id="@+id/account_profile_settings_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.masterlock.ble.app.view.nav.AccountProfileView>

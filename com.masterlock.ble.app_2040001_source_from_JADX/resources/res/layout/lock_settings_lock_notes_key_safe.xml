@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.settings.keysafe.LockNotesKeySafeView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/lock_name_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingTop="@dimen/space_m0" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/device_id_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme.BodyPanel">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/settings_notes_instructions" style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/lock_notes_floating_edit_text" android:paddingTop="@dimen/space_m4" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lock_notes_edit_field_hint" android:maxLength="@integer/notes_length" android:inputType="textMultiLine" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:paddingTop="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/lock_notes_edit_field_hint" android:maxLength="@integer/notes_length" android:inputType="textMultiLine"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/footer_height" style="?attr/buttonBarStyle">
+        <Button android:id="@+id/btn_save_notes" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/save_lock_notes" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.settings.keysafe.LockNotesKeySafeView>

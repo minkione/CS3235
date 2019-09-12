@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/secondary_light" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/sign_up_2016_password_tips_title" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/body_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m3" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_password_tips_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme.Footer.RightAligned">
+        <Button android:gravity="center" android:id="@+id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" android:textAllCaps="true" android:paddingStart="8dp" android:paddingEnd="8dp" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/secondary_light" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="@dimen/space_m1">
+    <LinearLayout android:orientation="vertical" android:id="@+id/body_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/tulip" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:layout_marginBottom="@dimen/space_m2" android:text="@string/revoke_access_or_delete_prompt" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" style="@style/TextAppearance.AppCompat.Subhead"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/space_m1" android:paddingBottom="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme.Footer.RightAligned">
+        <Button android:id="@+id/revoke_access" android:text="@string/grant_access_delete_button" style="@style/StackedButtonWidget"/>
+        <Button android:id="@+id/delete_guest" android:text="@string/delete" style="@style/StackedButtonWidget"/>
+        <Button android:id="@+id/cancel" android:text="@string/cancel" style="@style/StackedButtonWidget"/>
+    </LinearLayout>
+</LinearLayout>

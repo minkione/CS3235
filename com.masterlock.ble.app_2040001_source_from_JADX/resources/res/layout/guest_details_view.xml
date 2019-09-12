@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.guest.EditGuestDetailsView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/lock_name_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingTop="@dimen/space_m0" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/device_id_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <ScrollView android:background="@color/white" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/space_m2" android:paddingTop="@dimen/space_m1" android:paddingBottom="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/space_m2">
+            <TextView android:id="@+id/txt_guest_details_instructions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:text="@string/guest_details_form_explanation_copy" android:layout_marginStart="@dimen/space_m0" android:layout_marginEnd="@dimen/space_m0" style="@style/TextAppearance.AppCompat.Subhead"/>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/guest_first_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:id="@+id/guest_first_name_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/sign_up_2016_first_name_required" android:maxLength="100" android:inputType="textCapWords"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/guest_last_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:id="@+id/guest_last_name_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/last_name_hint" android:maxLength="100" android:inputType="textCapWords"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/organization" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:id="@+id/organization_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/organization" android:maxLength="100" android:inputType="textCapWords"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:id="@+id/email_edit_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/email" android:maxLength="256" android:inputType="textEmailAddress"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/code" android:layout_alignParentLeft="true" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:id="@+id/phone_number" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/sign_up_2016_view_1_phone_placeholder" android:inputType="phone" android:imeOptions="actionDone"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/country" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:enabled="false" android:gravity="left" android:id="@+id/area_code" android:paddingRight="@dimen/space_m0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/country_text" android:inputType="phone" android:imeOptions="actionDone"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:enabled="false" android:gravity="left" android:id="@+id/txt_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="30dp" android:inputType="text" android:imeOptions="actionDone"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            </RelativeLayout>
+            <TextView android:gravity="center" android:id="@+id/change_country_code" android:paddingTop="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/country_code_title" style="@style/TextAppearance"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/buttonBarStyle">
+        <Button android:textColor="@color/primary" android:id="@+id/btn_add_guest" android:text="@string/btn_add_guest" android:textAllCaps="true" style="@style/FlatButtonWidget"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.guest.EditGuestDetailsView>

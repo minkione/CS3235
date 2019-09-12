@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.settings.keysafe.ShareTemporaryCodesView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/space_m1" android:paddingBottom="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme.BodyPanel">
+            <TextView android:textColor="@color/black" android:paddingTop="@dimen/space_m2" android:paddingBottom="@dimen/space_m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/temporary_codes_instructions_1" style="@style/TextAppearance.AppCompat.Subhead"/>
+            <TextView android:textColor="@color/black" android:paddingTop="@dimen/space_m2" android:paddingBottom="@dimen/space_m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/temporary_codes_instructions_2" style="@style/TextAppearance.AppCompat.Subhead"/>
+            <RadioButton android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/rb_share_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m2" android:checked="true" android:text="@string/share_temporary_code_text"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/rb_share_future_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/space_m0" android:text="@string/share_future_temporary_code_text" android:layout_centerVertical="true"/>
+                <ImageView android:id="@+id/iv_calendar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_my_calendar" android:layout_toRightOf="@+id/rb_share_future_code" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_date_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/dummy_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/date_container_background" android:padding="@dimen/space_m1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/dummy_view">
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/tv_code_date" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/tv_time_zone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_alignParentBottom="true" style="@style/AppTheme.Footer.RightAligned">
+            <Button android:id="@+id/share_temporary_code_button" android:text="@string/product_invitation_temp_code_button" android:textAllCaps="true" style="@style/FlatButtonWidget"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.settings.keysafe.ShareTemporaryCodesView>

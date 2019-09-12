@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.signup.TermsOfServiceView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/button_bar">
+        <TextView android:id="@+id/terms_of_service_text_view" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/button_bar" android:layout_alignParentBottom="true" style="@style/AppTheme.Footer.RightAligned">
+        <Button android:id="@+id/terms_of_service_dismiss_button" android:text="@string/ok" android:layout_alignParentRight="true" android:textAllCaps="true" style="@style/FlatButtonWidget"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.signup.TermsOfServiceView>

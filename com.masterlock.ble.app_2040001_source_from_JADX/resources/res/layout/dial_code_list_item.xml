@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/backup_code_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:layout_marginBottom="@dimen/space_m1" android:layout_marginStart="@dimen/space_m2" android:layout_marginEnd="@dimen/space_m2"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/code_name_tv" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:maxLines="1" android:paddingStart="?android:attr/listPreferredItemPaddingStart" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+    <View android:layout_gravity="bottom" android:background="@color/walnut" android:layout_width="match_parent" android:layout_height="1dp"/>
+</FrameLayout>

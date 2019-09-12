@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.welcome.WalkthroughStepView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/birch" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textColor="@color/oak" android:gravity="center" android:id="@+id/welcome_title" android:paddingTop="@dimen/vertical_space" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/step_0_title" style="@style/TextAppearance.AppCompat.Title"/>
+    <TextView android:textColor="@color/oak" android:gravity="center" android:layout_gravity="center" android:id="@+id/welcome_body" android:paddingLeft="@dimen/space_m1" android:paddingRight="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/step_0_body" android:layout_weight="1" style="@style/TextAppearance.AppCompat.Subhead"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="300dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/rl_welcome_epadlock_background" android:background="@color/tulip" android:layout_width="0dp" android:layout_height="150dp" android:layout_marginLeft="@dimen/space_m4" android:layout_weight="1"/>
+            <View android:id="@+id/rl_welcome_ekeysafe_background" android:background="@color/tulip" android:layout_width="0dp" android:layout_height="150dp" android:layout_marginRight="@dimen/space_m4" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/rl_welcome_epadlock" android:layout_width="0dp" android:layout_height="180dp" android:layout_marginLeft="@dimen/space_m8" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/epadlock" android:adjustViewBounds="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_welcome_ekeysafe" android:layout_width="0dp" android:layout_height="180dp" android:layout_marginRight="@dimen/space_m8" android:layout_weight="1">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m3" android:src="@drawable/ekeysafe" android:adjustViewBounds="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.welcome.WalkthroughStepView>

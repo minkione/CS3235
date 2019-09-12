@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.generic.GenericLockDetailsView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/light_grey" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Type3" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/txt_lock_name" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingTop="@dimen/space_m1" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+    <ScrollView android:background="@color/white" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:padding="25dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.Type3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hint_lock_combination"/>
+            <TextView android:textAppearance="@style/TextAppearance.Type5" android:id="@+id/generic_details_combination_tv" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/hint_lock_combination"/>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/footer_height" style="?attr/buttonBarStyle">
+        <Button android:id="@+id/btn_edit" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/edit_lock_btn" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.lock.generic.GenericLockDetailsView>

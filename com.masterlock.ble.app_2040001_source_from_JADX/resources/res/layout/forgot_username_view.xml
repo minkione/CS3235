@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.signin.ForgotUsernameView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/account_sign_up_sign_in_screens_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:padding="@dimen/space_m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.masterlock.ble.app.view.CustomFontTextView android:textStyle="bold" android:layout_gravity="center" android:text="@string/forgot_username_title" android:layout_below="@+id/ll_logo_container" android:layout_centerHorizontal="true" android:textAllCaps="true" style="@style/AppTheme.HeaderLabel"/>
+    </RelativeLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_height="0dp" android:layout_weight="1" style="@style/AppTheme.BodyPanel">
+            <TextView android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m2" android:text="@string/forgot_username_info" style="@style/TextAppearance.AppCompat.Medium"/>
+            <EditText android:id="@+id/email_edit_text" android:layout_marginBottom="@dimen/space_m2" android:hint="@string/sign_up_2016_view_1_email_placeholder" android:inputType="textEmailAddress" style="@style/CustomEditTextStyle"/>
+            <Button android:textColor="@color/white" android:id="@+id/retrieve_username_button" android:background="@drawable/button_shape_transparent_stroke_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m2" android:text="@string/forgot_username_button_text" android:textAllCaps="false" style="@style/TextAppearance.AppCompat.Medium"/>
+        </LinearLayout>
+    </ScrollView>
+</com.masterlock.ble.app.view.signin.ForgotUsernameView>

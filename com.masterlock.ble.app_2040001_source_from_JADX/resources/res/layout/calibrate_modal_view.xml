@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/birch" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.masterlock.ble.app.view.CustomFontTextView android:textColor="@color/oak" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/calibration_description_title" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" app:fontName="@string/app_font_medium" style="@style/Base.TextAppearance.AppCompat.Title"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/body_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m3" android:layout_below="@+id/title" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3">
+            <com.masterlock.ble.app.view.CustomFontTextView android:textColor="@color/oak" android:gravity="center" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/calibration_description_body" app:fontName="@string/app_font_light"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/body_container" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center" android:id="@+id/iv_permission" android:layout_width="260dp" android:layout_height="0dp" android:layout_marginTop="@dimen/space_m6" android:layout_marginBottom="@dimen/space_m6" android:src="@drawable/calibrate_signal" android:layout_weight="1"/>  
+            <LinearLayout android:orientation="vertical" android:background="@color/birch" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="100">
+                    <View android:background="@color/spruce" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="90"/>
+                </LinearLayout>
+                <Button android:theme="@style/GrantPermissionButtonTheme" android:textStyle="bold" android:textColor="@color/birch" android:gravity="center" android:layout_gravity="center" android:id="@+id/bt_calibrate_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m1" android:text="@string/calibrate_button" android:textAllCaps="true"/>
+                <TextView android:textColor="@color/spruce" android:gravity="center" android:id="@+id/tv_skip_for_now" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m1" android:text="@string/permissions_skip_for_now_button" style="@style/TextAppearance.AppCompat.Small"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

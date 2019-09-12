@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/frame" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.daimajia.swipe.SwipeLayout android:id="@+id/swipe" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:background="@color/open" android:layout_width="120dp" android:layout_height="match_parent">
+            <ImageView android:id="@+id/img_check" android:padding="@dimen/space_m2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_white_large"/>
+        </LinearLayout>
+        <FrameLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:orientation="vertical" android:id="@+id/lock_list_item_container" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+                <ImageView android:id="@+id/img_lock" android:padding="@dimen/space_m2" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ic_locklist_lock" android:layout_centerVertical="false" android:layout_alignParentStart="true"/>
+                <TableLayout android:id="@+id/lock_name_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:layout_marginBottom="@dimen/space_m0" android:stretchColumns="1" android:shrinkColumns="0" android:layout_alignTop="@+id/img_lock" android:layout_marginEnd="@dimen/space_m0" android:layout_toStartOf="@+id/end_container" android:layout_toEndOf="@+id/img_lock">
+                    <TableRow>
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:id="@+id/txt_lock_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:singleLine="true"/>
+                        <TextView android:textAppearance="@style/TextAppearance.Caption" android:textColor="@color/medium_grey" android:id="@+id/txt_coowner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:text="@string/co_owner" android:singleLine="true" android:layout_marginStart="@dimen/space_m0" android:layout_marginEnd="@dimen/space_m0"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/medium_grey" android:id="@+id/txt_device_Id" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="hud" android:singleLine="true" android:layout_marginEnd="@dimen/space_m0"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/medium_grey" android:id="@+id/txt_lock_activity" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="2" android:drawablePadding="@dimen/space_m0" android:layout_marginEnd="@dimen/space_m0"/>
+                    </TableRow>
+                </TableLayout>
+                <FrameLayout android:id="@+id/end_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/space_m0" android:layout_marginEnd="@dimen/space_m2" android:layout_alignParentEnd="true">
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/img_swipe_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@+id/img_swipe_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/graphic_leftarrow_small" android:tint="@color/medium_grey"/>
+                        <ImageView android:layout_gravity="center" android:id="@+id/img_swipe_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/graphic_leftarrow_medium" android:tint="@color/medium_grey" android:layout_marginStart="3dp"/>
+                        <ImageView android:layout_gravity="center" android:id="@+id/img_swipe_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/graphic_leftarrow_large" android:tint="@color/medium_grey" android:layout_marginStart="3dp"/>
+                    </LinearLayout>
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Headline" android:layout_gravity="center" android:id="@+id/txt_timer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="@style/TextAppearance.Caption" android:textColor="@color/low_battery" android:id="@+id/txt_battery_low" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/space_m0" android:layout_marginEnd="@dimen/space_m0"/>
+                        <ImageView android:id="@+id/battery_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:src="@drawable/ic_battery_red" android:layout_marginStart="@dimen/space_m0"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </com.daimajia.swipe.SwipeLayout>
+</FrameLayout>

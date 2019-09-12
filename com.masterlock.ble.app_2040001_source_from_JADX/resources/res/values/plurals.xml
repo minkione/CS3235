@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notif_lock_content_info">
+        <item quantity="one">@string/notif_lock_content_info_one</item>
+        <item quantity="other">@string/notif_lock_content_info_other</item>
+    </plurals>
+    <plurals name="notif_lock_multiple_title">
+        <item quantity="one">@string/notif_lock_multiple_title_one</item>
+        <item quantity="other">@string/notif_lock_multiple_title_other</item>
+    </plurals>
+    <plurals name="notif_lock_update_multiple_title">
+        <item quantity="one">@string/notif_lock_update_multiple_title_one</item>
+        <item quantity="other">@string/notif_lock_update_multiple_title_other</item>
+    </plurals>
+    <plurals name="relock_time">
+        <item quantity="one">@string/relock_time_one</item>
+        <item quantity="other">@string/relock_time_other</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.guest.ExistingGuestListView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/light_grey" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:gravity="center" android:layout_gravity="center" android:id="@+id/txt_lock_name" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:gravity="center" android:layout_gravity="center" android:id="@+id/txt_lock_id" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <android.support.p003v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</com.masterlock.ble.app.view.guest.ExistingGuestListView>

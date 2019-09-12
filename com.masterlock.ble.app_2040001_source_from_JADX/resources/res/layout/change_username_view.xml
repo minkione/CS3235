@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.nav.settings.ChangeUserNameView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/change_email_continue_btn" android:layout_alignParentTop="true" style="@style/AppTheme.BodyPanel">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:text="@string/change_username_instruction" style="@style/TextAppearance.AppCompat.Medium"/>
+            <EditText android:gravity="center" android:id="@+id/username_edit_text" android:layout_marginLeft="@dimen/space_m2" android:layout_marginTop="@dimen/space_m3" android:layout_marginRight="@dimen/space_m2" android:hint="@string/new_username_hint" android:maxLines="1" android:singleLine="true" android:maxLength="30" android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" android:inputType="text" android:imeOptions="actionDone" style="@style/CustomEditTextStyleBlack"/>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@+id/change_username_save_btn" android:text="@string/settings_name_save" style="@style/Widget.AccountSettingsSaveButton"/>
+</com.masterlock.ble.app.view.nav.settings.ChangeUserNameView>

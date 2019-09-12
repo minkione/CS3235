@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.dialspeed.EditDialSpeedCodesView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_m1">
+            <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m1" android:text="@string/edit_codes_instructions"/>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_1_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:gravity="center" android:id="@+id/floating_code_1_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_name_hint_1" android:maxLines="1" android:maxLength="100" android:inputType="text" android:imeOptions="actionNext"/>
+                <TextView android:gravity="center" android:id="@+id/floating_code_1_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/title_primary_code"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_small" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_hint_1" android:maxLines="1" android:maxLength="100" android:inputType="textCapCharacters" android:imeOptions="actionNext" android:textAllCaps="true"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <LinearLayout android:orientation="vertical" android:id="@+id/dialspeed_extra_codes_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_2_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_name_hint_2" android:maxLines="1" android:maxLength="100" android:inputType="text" android:imeOptions="actionNext"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_small" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_hint_2" android:maxLines="1" android:maxLength="100" android:inputType="textCapCharacters" android:imeOptions="actionNext" android:textAllCaps="true"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_3_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_name_hint_3" android:maxLines="1" android:maxLength="100" android:inputType="text" android:imeOptions="actionNext"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_small" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_hint_3" android:maxLines="1" android:maxLength="100" android:inputType="textCapCharacters" android:imeOptions="actionNext" android:textAllCaps="true"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_4_name" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_name_hint_4" android:maxLines="1" android:maxLength="100" android:inputType="text" android:imeOptions="actionNext"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+                <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:id="@+id/floating_code_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_small" style="?attr/floatingLabelEditTextStyle">
+                    <EditText android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/code_hint_4" android:maxLines="1" android:maxLength="100" android:inputType="textCapCharacters" android:imeOptions="actionNext" android:textAllCaps="true"/>
+                </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/footer_height" style="?attr/buttonBarStyle">
+        <View android:id="@+id/shadow_shim" android:layout_width="match_parent" android:layout_height="@dimen/shadow_size" android:layout_marginTop="@dimen/shadow_margin"/>
+        <Button android:id="@+id/btn_save" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/btn_save" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.lock.dialspeed.EditDialSpeedCodesView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/primary" android:layout_width="match_parent" android:layout_height="168dp">
+        <ImageView android:id="@+id/nav_logo" android:layout_width="130dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:src="@drawable/graphic_logo_white" android:layout_marginStart="@dimen/space_medium" android:layout_marginEnd="@dimen/space_medium"/>
+    </RelativeLayout>
+    <ScrollView android:background="@color/white" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_account" android:text="@string/account_label" style="@style/AppTheme.TextView.NavDrawerHeader"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_settings" android:text="@string/settings_label" style="@style/AppTheme.TextView.NavDrawerItem"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_log_out" android:text="@string/navigation_logout" style="@style/AppTheme.TextView.NavDrawerItem"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_support" android:text="@string/support_label" style="@style/AppTheme.TextView.NavDrawerHeader"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_help" android:text="@string/help" style="@style/AppTheme.TextView.NavDrawerItem"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_terms_of_service" android:text="@string/terms_of_service" style="@style/AppTheme.TextView.NavDrawerItem"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_privacy_policy" android:text="@string/privacy_policy" style="@style/AppTheme.TextView.NavDrawerItem"/>
+            <com.masterlock.ble.app.view.CustomFontTextView android:id="@+id/txt_contact_master_lock" android:text="@string/contact_master_lock" style="@style/AppTheme.TextView.NavDrawerItem"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:layout_gravity="end" android:id="@+id/app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m1" android:text="@string/app_version" android:layout_marginEnd="@dimen/space_m1"/>
+</LinearLayout>

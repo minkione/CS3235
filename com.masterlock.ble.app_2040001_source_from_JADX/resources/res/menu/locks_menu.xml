@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_sorting" android:id="@+id/menu_sort" android:title="@string/menu_sort_by" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/menu_sort_by_name_asc" android:title="@string/sort_by_name_asc"/>
+            <item android:id="@+id/menu_sort_by_name_des" android:title="@string/sort_by_name_des"/>
+            <item android:id="@+id/menu_sort_by_recently_accessed" android:title="@string/sort_by_recently_accessed"/>
+            <item android:id="@+id/menu_sort_by_product_type" android:title="@string/sort_by_product_type"/>
+        </menu>
+    </item>
+    <item android:icon="@drawable/ic_action_add" android:id="@+id/menu_add" android:title="@string/menu_add_lock" app:showAsAction="ifRoom"/>
+</menu>

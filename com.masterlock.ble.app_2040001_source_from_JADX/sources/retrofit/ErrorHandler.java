@@ -1,0 +1,11 @@
+package retrofit;
+
+public interface ErrorHandler {
+    public static final ErrorHandler DEFAULT = new ErrorHandler() {
+        public Throwable handleError(RetrofitError retrofitError) {
+            return retrofitError;
+        }
+    };
+
+    Throwable handleError(RetrofitError retrofitError);
+}

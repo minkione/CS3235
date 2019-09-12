@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.settings.padlock.ShowRelockTimePadLockView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:background="@color/grey" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/header_container" android:background="@color/primary" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/relock_time_display_size" android:textColor="@color/white" android:id="@+id/txt_relock_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" android:layout_marginStart="@dimen/space_m7" android:layout_marginEnd="@dimen/space_m2" style="@style/TextAppearance.Type5"/>
+                <TextView android:textColor="@color/white" android:id="@+id/txt_seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m4" android:text="@string/relock_time_seconds_label" android:layout_marginStart="@dimen/space_m7" android:layout_marginEnd="@dimen/space_m2" style="@style/TextAppearance.Body1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/body_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m4" android:layout_marginBottom="@dimen/space_m2" android:text="@string/relock_time_what_is_this" android:layout_marginStart="@dimen/space_m2" android:layout_marginEnd="@dimen/space_m2" style="@style/TextAppearance.AppCompat.Subhead"/>
+                <TextView android:textColor="@color/medium_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m3" android:text="@string/relock_time_desc" android:layout_marginStart="@dimen/space_m2" android:layout_marginEnd="@dimen/space_m2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/button_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/shadow_margin" style="?attr/buttonBarStyle">
+        <Button android:id="@+id/btn_change_relock_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m2" android:layout_marginTop="@dimen/space_m0" android:layout_marginRight="@dimen/space_m2" android:layout_marginBottom="@dimen/space_m0" android:text="@string/button_change_relock_time" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.settings.padlock.ShowRelockTimePadLockView>

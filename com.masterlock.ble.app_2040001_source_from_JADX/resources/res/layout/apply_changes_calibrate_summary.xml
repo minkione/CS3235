@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.CalibrateSummaryView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/space_m1" android:paddingEnd="@dimen/space_m1">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calibrate_success" android:textAllCaps="true" style="@style/TextAppearance.AppCompat.Medium"/>
+    <ImageView android:id="@+id/unlock_mode_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m4" android:layout_marginBottom="@dimen/space_m4" android:src="@drawable/graphic_succesful_communication"/>
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calibrate_summary"/>
+</com.masterlock.ble.app.view.lock.CalibrateSummaryView>

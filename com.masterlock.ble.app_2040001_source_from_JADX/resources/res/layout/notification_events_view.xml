@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.nav.settings.NotificationEventsView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="@color/black" android:id="@+id/tv_indications" android:paddingLeft="@dimen/space_m2" android:paddingTop="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/notifications_indications" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/TextAppearance.AppCompat.Medium"/>
+        <android.support.p003v7.widget.RecyclerView android:id="@+id/rv_notification_events" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m3" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/ll_footer" android:layout_below="@+id/tv_indications"/>
+        <Button android:id="@+id/btn_save" android:text="@string/settings_name_save" style="@style/Widget.AccountSettingsSaveButton"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.nav.settings.NotificationEventsView>

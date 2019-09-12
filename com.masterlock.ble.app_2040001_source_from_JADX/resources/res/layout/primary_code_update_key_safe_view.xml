@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.keysafe.PrimaryCodeUpdateKeySafeView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:background="@color/grey" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@+id/main_container" android:background="@color/white" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:paddingTop="@dimen/space_m5" android:paddingBottom="@dimen/space_m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/primary_code_instructions_key_safe" style="@style/TextAppearance.AppCompat.Subhead"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/lock_code_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <ImageButton android:id="@+id/primary_code_delete_button" android:background="@color/white" android:padding="@dimen/space_m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_backbutton"/>
+            </LinearLayout>
+            <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:rowCount="4" android:columnCount="1">
+                <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@+id/d_pad_button_1" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="1" style="@style/DigitPadButton"/>
+                    <Button android:id="@+id/d_pad_button_2" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="2" style="@style/DigitPadButton"/>
+                    <Button android:id="@+id/d_pad_button_3" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="3" style="@style/DigitPadButton"/>
+                </TableRow>
+                <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@+id/d_pad_button_4" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="4" style="@style/DigitPadButton"/>
+                    <Button android:id="@+id/d_pad_button_5" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="5" style="@style/DigitPadButton"/>
+                    <Button android:id="@+id/d_pad_button_6" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="6" style="@style/DigitPadButton"/>
+                </TableRow>
+                <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@+id/d_pad_button_7" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="7" style="@style/DigitPadButton"/>
+                    <Button android:id="@+id/d_pad_button_8" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="8" style="@style/DigitPadButton"/>
+                    <Button android:id="@+id/d_pad_button_9" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="9" style="@style/DigitPadButton"/>
+                </TableRow>
+                <TableRow android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@+id/d_pad_button_0" android:layout_width="@dimen/dpad_button_size" android:layout_height="@dimen/dpad_button_size" android:text="0" style="@style/DigitPadButton"/>
+                </TableRow>
+            </GridLayout>
+            <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:paddingBottom="@dimen/space_m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:text="@string/primary_code_sync_hint" android:lineSpacingExtra="@dimen/space_m1"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="@dimen/footer_height" android:layout_marginTop="@dimen/shadow_margin" style="?attr/buttonBarStyle">
+        <Button android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_save_code" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/apply_primary_code" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.lock.keysafe.PrimaryCodeUpdateKeySafeView>

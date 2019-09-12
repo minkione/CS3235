@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="settings_guest">
+        <item>@string/settings_about</item>
+        <item>@string/settings_calibrate</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/settings_notes</item>
+    </array>
+    <array name="settings_guest_no_access">
+        <item>@string/settings_about</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/settings_notes</item>
+    </array>
+    <array name="settings_owner">
+        <item>@string/settings_about</item>
+        <item>@string/settings_calibrate</item>
+        <item>@string/settings_timezone_label</item>
+        <item>@string/settings_unlock_mode</item>
+        <item>@string/settings_lock_name</item>
+        <item>@string/send_temp_code</item>
+        <item>@string/settings_reset</item>
+        <item>@string/settings_notes</item>
+        <item>@string/settings_backup</item>
+    </array>
+</resources>

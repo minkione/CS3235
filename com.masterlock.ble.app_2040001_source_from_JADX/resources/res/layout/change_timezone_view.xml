@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.nav.settings.ChangeTimeZoneView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/button_save" android:layout_alignParentTop="true" style="@style/AppTheme.BodyPanel">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/profile_setting_change_timezone_instructions" style="@style/Base.TextAppearance.AppCompat.Medium"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m2" android:layout_marginTop="@dimen/space_m4" android:layout_marginRight="@dimen/space_m2">
+                <Spinner android:id="@+id/lock_timezones" android:layout_width="match_parent" android:layout_height="wrap_content" android:prompt="@string/edit_timezone_prompt"/>
+                <android.support.p003v7.widget.SwitchCompat android:id="@+id/sc_change_all_timezones" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m4" android:checked="true" android:text="@string/profile_setting_change_timezone_propagate_slider" style="@style/Base.TextAppearance.AppCompat.Medium"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:id="@+id/bt_save" android:text="@string/save_lock_notes" style="@style/Widget.AccountSettingsSaveButton"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.nav.settings.ChangeTimeZoneView>

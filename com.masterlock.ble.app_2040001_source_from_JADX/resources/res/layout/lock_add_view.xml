@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.AddLockView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/add_lock_view" android:background="@color/white" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/footer_height" style="?attr/buttonBarStyle">
+        <View android:id="@+id/shadow_shim" android:layout_width="match_parent" android:layout_height="@dimen/shadow_size" android:layout_marginTop="@dimen/shadow_margin"/>
+        <Button android:id="@+id/btn_submit" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/btn_submit_label" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/buttonBarButtonStyle"/>
+    </RelativeLayout>
+    <ScrollView android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_small" android:text="@string/add_lock_instructions"/>
+            <com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText android:layout_gravity="center" android:id="@+id/floating_label_activation_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_small" style="?attr/floatingLabelEditTextStyle">
+                <EditText android:gravity="center" android:id="@+id/edit_activation_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hint_activation" android:singleLine="true" android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" android:inputType="none|text|textNoSuggestions|textUri|textPassword|textVisiblePassword" android:imeOptions="actionDone"/>
+            </com.akta.android.p004ui.floatinglabeledittext.FloatingLabelEditText>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:paddingTop="@dimen/space_m3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_lock_instructions_full"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/lockbox_instsheet_bluebox" android:layout_weight="2"/>
+                    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                </LinearLayout>
+                <Button android:layout_gravity="center_horizontal" android:id="@+id/btn_no_activation" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/no_activation_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/borderlessButtonStyle"/>
+                <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.masterlock.ble.app.view.lock.AddLockView>

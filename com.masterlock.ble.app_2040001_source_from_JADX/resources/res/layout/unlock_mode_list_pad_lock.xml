@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.settings.padlock.UnlockModePadLockListView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:background="@color/grey" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_above="@+id/bottom_container" android:layout_below="@+id/top_banner_container" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@+id/unlock_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@+id/touch_mode_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_m1" layout="@layout/touch_unlock_mode_card"/>
+            <include android:id="@+id/proximity_swipe_mode_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space_m1" layout="@layout/swipe_unlock_mode_card"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/top_banner_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/lock_name_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/TextAppearance.Body2" android:textColor="@color/dark_grey" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/device_id_banner" android:background="@color/light_grey" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/shadow_margin">
+            <TextView android:textAppearance="@style/TextAppearance.Body2" android:textSize="16sp" android:textColor="@color/medium_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m1" android:layout_marginBottom="@dimen/space_m1" android:text="@string/unlock_mode_sync_hint" android:textAllCaps="true" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="@dimen/footer_height" android:layout_marginTop="@dimen/shadow_margin" style="?attr/buttonBarStyle">
+            <Button android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_save_unlock_mode" android:layout_width="wrap_content" android:layout_height="@dimen/footer_button_height" android:text="@string/apply_primary_code" style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.masterlock.ble.app.view.settings.padlock.UnlockModePadLockListView>

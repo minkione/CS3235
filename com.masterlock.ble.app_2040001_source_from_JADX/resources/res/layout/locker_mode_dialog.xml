@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginStart="@dimen/space_m2" android:layout_marginEnd="@dimen/space_m2" style="@style/TextAppearance.AppCompat.Title"/>
+    <TextView android:id="@+id/body_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:layout_marginStart="@dimen/space_m2" android:layout_marginEnd="@dimen/space_m2" style="@style/TextAppearance.AppCompat.Body1"/>
+    <TextView android:id="@+id/body_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:layout_marginBottom="@dimen/space_m2" android:layout_marginStart="@dimen/space_m2" android:layout_marginEnd="@dimen/space_m2" style="@style/TextAppearance.AppCompat.Subhead"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/primary_code_container" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:layout_marginBottom="@dimen/space_m1"/>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="8dp" style="@style/AppTheme.Footer.RightAligned">
+        <Button android:textColor="@color/text_color_primary" android:id="@+id/negative_button" android:visibility="gone" android:text="@string/cancel" android:textAllCaps="true" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_marginEnd="8dp" style="@style/FlatButtonWidget"/>
+        <Button android:id="@+id/positive_button" android:text="@string/ok" android:textAllCaps="true" android:paddingStart="8dp" android:paddingEnd="8dp" style="@style/FlatButtonWidget"/>
+    </LinearLayout>
+</LinearLayout>

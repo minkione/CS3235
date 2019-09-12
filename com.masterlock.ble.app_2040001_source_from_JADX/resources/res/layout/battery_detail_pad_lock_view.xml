@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.padlock.BatteryDetailPadLockView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:background="@color/grey" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/header_container" android:background="@color/primary" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/battery_indicator" android:layout_width="300dp" android:layout_height="100dp" android:src="@drawable/ic_battery_info_white"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textColor="@color/black" android:id="@+id/txt_where_is_battery_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/where_is_battery" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" style="@style/TextAppearance.AppCompat.Subhead"/>
+                <TextView android:textColor="@color/medium_grey" android:id="@+id/txt_where_is_battery_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space_m3" android:text="@string/where_is_battery_description_indoor" style="@style/Base.TextAppearance.AppCompat.Body1"/>
+                <TextView android:textColor="@color/black" android:id="@+id/txt_how_to_change_battery_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_do_i_change" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" style="@style/TextAppearance.AppCompat.Subhead"/>
+                <TextView android:textColor="@color/medium_grey" android:id="@+id/txt_how_to_change_battery_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:layout_marginBottom="@dimen/space_m3" android:text="@string/how_do_i_change_description_indoor" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/shadow_margin" style="?attr/buttonBarStyle">
+        <Button android:id="@+id/btn_more_battery_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m2" android:layout_marginTop="@dimen/space_m0" android:layout_marginRight="@dimen/space_m2" android:layout_marginBottom="@dimen/space_m0" android:text="@string/more_battery_info_button" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.lock.padlock.BatteryDetailPadLockView>

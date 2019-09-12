@@ -1,0 +1,98 @@
+package p008io.fabric.sdk.android;
+
+import android.util.Log;
+
+/* renamed from: io.fabric.sdk.android.DefaultLogger */
+public class DefaultLogger implements Logger {
+    private int logLevel;
+
+    public DefaultLogger(int i) {
+        this.logLevel = i;
+    }
+
+    public DefaultLogger() {
+        this.logLevel = 4;
+    }
+
+    public boolean isLoggable(String str, int i) {
+        return this.logLevel <= i;
+    }
+
+    public int getLogLevel() {
+        return this.logLevel;
+    }
+
+    public void setLogLevel(int i) {
+        this.logLevel = i;
+    }
+
+    /* renamed from: d */
+    public void mo21794d(String str, String str2, Throwable th) {
+        if (isLoggable(str, 3)) {
+            Log.d(str, str2, th);
+        }
+    }
+
+    /* renamed from: v */
+    public void mo21805v(String str, String str2, Throwable th) {
+        if (isLoggable(str, 2)) {
+            Log.v(str, str2, th);
+        }
+    }
+
+    /* renamed from: i */
+    public void mo21799i(String str, String str2, Throwable th) {
+        if (isLoggable(str, 4)) {
+            Log.i(str, str2, th);
+        }
+    }
+
+    /* renamed from: w */
+    public void mo21807w(String str, String str2, Throwable th) {
+        if (isLoggable(str, 5)) {
+            Log.w(str, str2, th);
+        }
+    }
+
+    /* renamed from: e */
+    public void mo21796e(String str, String str2, Throwable th) {
+        if (isLoggable(str, 6)) {
+            Log.e(str, str2, th);
+        }
+    }
+
+    /* renamed from: d */
+    public void mo21793d(String str, String str2) {
+        mo21794d(str, str2, null);
+    }
+
+    /* renamed from: v */
+    public void mo21804v(String str, String str2) {
+        mo21805v(str, str2, null);
+    }
+
+    /* renamed from: i */
+    public void mo21798i(String str, String str2) {
+        mo21799i(str, str2, null);
+    }
+
+    /* renamed from: w */
+    public void mo21806w(String str, String str2) {
+        mo21807w(str, str2, null);
+    }
+
+    /* renamed from: e */
+    public void mo21795e(String str, String str2) {
+        mo21796e(str, str2, null);
+    }
+
+    public void log(int i, String str, String str2) {
+        log(i, str, str2, false);
+    }
+
+    public void log(int i, String str, String str2, boolean z) {
+        if (z || isLoggable(str, i)) {
+            Log.println(i, str, str2);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.UnlockModeSummaryView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/unlock_mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_mode_change_title" android:layout_centerInParent="true" style="@style/TextAppearance.AppCompat.Headline"/>
+    <ImageView android:id="@+id/unlock_mode_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:src="@drawable/graphic_touch_unlock" android:layout_below="@+id/unlock_mode_title" android:layout_centerInParent="true"/>
+    <LinearLayout android:id="@+id/unlock_mode_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/unlock_mode_image" android:layout_centerInParent="true" android:layout_marginStart="16dp">
+        <TextView android:id="@+id/unlock_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:text="@string/touch_unlock_card_title" android:layout_marginStart="112dp" style="@style/TextAppearance.AppCompat.Large"/>
+        <ImageView android:id="@+id/unlock_mode_beta" android:layout_width="100dp" android:layout_height="30dp" android:src="@drawable/ic_beta_swipe_box"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m2" android:text="@string/lock_mode_change_body" android:layout_below="@+id/unlock_mode_container" android:layout_centerInParent="true"/>
+</com.masterlock.ble.app.view.lock.UnlockModeSummaryView>

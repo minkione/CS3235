@@ -1,0 +1,1666 @@
+[
+    {
+        "Id": "Pacific/Midway",
+        "Display": "(UTC-11:00) Pacífico/Midway"
+    },
+    {
+        "Id": "Pacific/Niue",
+        "Display": "(UTC-11:00) Pacífico/Niue"
+    },
+    {
+        "Id": "Pacific/Pago_Pago",
+        "Display": "(UTC-11:00) Pacífico/Pago Pago"
+    },
+    {
+        "Id": "Pacific/Honolulu",
+        "Display": "(UTC-10:00) Pacífico/Honolulu"
+    },
+    {
+        "Id": "Pacific/Johnston",
+        "Display": "(UTC-10:00) Pacífico/Johnston"
+    },
+    {
+        "Id": "Pacific/Rarotonga",
+        "Display": "(UTC-10:00) Pacífico/Rarotonga"
+    },
+    {
+        "Id": "Pacific/Tahiti",
+        "Display": "(UTC-10:00) Pacífico/Tahiti"
+    },
+    {
+        "Id": "Pacific/Marquesas",
+        "Display": "(UTC-09:30) Pacífico/Marquises"
+    },
+    {
+        "Id": "America/Adak",
+        "Display": "(UTC-09:00) Amérique/Adak"
+    },
+    {
+        "Id": "Pacific/Gambier",
+        "Display": "(UTC-09:00) Pacífico/Gambier"
+    },
+    {
+        "Id": "America/Anchorage",
+        "Display": "(UTC-08:00) Amérique/Anchorage"
+    },
+    {
+        "Id": "America/Juneau",
+        "Display": "(UTC-08:00) Amérique/Juneau"
+    },
+    {
+        "Id": "America/Metlakatla",
+        "Display": "(UTC-08:00) Amérique/Metlakatla"
+    },
+    {
+        "Id": "America/Nome",
+        "Display": "(UTC-08:00) Amérique/Nome"
+    },
+    {
+        "Id": "America/Sitka",
+        "Display": "(UTC-08:00) Amérique/Sitka"
+    },
+    {
+        "Id": "America/Yakutat",
+        "Display": "(UTC-08:00) Amérique/Yakutat"
+    },
+    {
+        "Id": "Pacific/Pitcairn",
+        "Display": "(UTC-08:00) Pacífico/Pitcairn"
+    },
+    {
+        "Id": "America/Creston",
+        "Display": "(UTC-07:00) Amérique/Creston"
+    },
+    {
+        "Id": "America/Dawson",
+        "Display": "(UTC-07:00) Amérique/Dawson"
+    },
+    {
+        "Id": "America/Dawson_Creek",
+        "Display": "(UTC-07:00) Amérique/Dawson Creek"
+    },
+    {
+        "Id": "America/Hermosillo",
+        "Display": "(UTC-07:00) Amérique/Hermosillo"
+    },
+    {
+        "Id": "America/Los_Angeles",
+        "Display": "(UTC-07:00) Amérique/Los Angeles"
+    },
+    {
+        "Id": "America/Phoenix",
+        "Display": "(UTC-07:00) Amérique/Phoenix"
+    },
+    {
+        "Id": "America/Santa_Isabel",
+        "Display": "(UTC-07:00) Amérique/Santa Isabel"
+    },
+    {
+        "Id": "America/Tijuana",
+        "Display": "(UTC-07:00) Amérique/Tijuana"
+    },
+    {
+        "Id": "America/Vancouver",
+        "Display": "(UTC-07:00) Amérique/Vancouver"
+    },
+    {
+        "Id": "America/Whitehorse",
+        "Display": "(UTC-07:00) Amérique/Whitehorse"
+    },
+    {
+        "Id": "America/Belize",
+        "Display": "(UTC-06:00) Amérique/Belize"
+    },
+    {
+        "Id": "America/Boise",
+        "Display": "(UTC-06:00) Amérique/Boise"
+    },
+    {
+        "Id": "America/Cambridge_Bay",
+        "Display": "(UTC-06:00) Amérique/Cambridge Bay"
+    },
+    {
+        "Id": "America/Chihuahua",
+        "Display": "(UTC-06:00) Amérique/Chihuahua"
+    },
+    {
+        "Id": "America/Costa_Rica",
+        "Display": "(UTC-06:00) Amérique/Costa Rica"
+    },
+    {
+        "Id": "America/Denver",
+        "Display": "(UTC-06:00) Amérique/Denver"
+    },
+    {
+        "Id": "America/Edmonton",
+        "Display": "(UTC-06:00) Amérique/Edmonton"
+    },
+    {
+        "Id": "America/El_Salvador",
+        "Display": "(UTC-06:00) Amérique/El Salvador"
+    },
+    {
+        "Id": "America/Guatemala",
+        "Display": "(UTC-06:00) Amérique/Guatemala"
+    },
+    {
+        "Id": "America/Inuvik",
+        "Display": "(UTC-06:00) Amérique/Inuvik"
+    },
+    {
+        "Id": "America/Managua",
+        "Display": "(UTC-06:00) Amérique/Managua"
+    },
+    {
+        "Id": "America/Mazatlan",
+        "Display": "(UTC-06:00) Amérique/Mazatlán"
+    },
+    {
+        "Id": "America/Ojinaga",
+        "Display": "(UTC-06:00) Amérique/Ojinaga"
+    },
+    {
+        "Id": "America/Regina",
+        "Display": "(UTC-06:00) Amérique/Regina"
+    },
+    {
+        "Id": "America/Swift_Current",
+        "Display": "(UTC-06:00) Amérique/Swift Current"
+    },
+    {
+        "Id": "America/Tegucigalpa",
+        "Display": "(UTC-06:00) Amérique/Tégucigalpa"
+    },
+    {
+        "Id": "America/Yellowknife",
+        "Display": "(UTC-06:00) Amérique/Yellowknife"
+    },
+    {
+        "Id": "Pacific/Galapagos",
+        "Display": "(UTC-06:00) Pacífico/Galápagos"
+    },
+    {
+        "Id": "America/Atikokan",
+        "Display": "(UTC-05:00) America/Atikokan"
+    },
+    {
+        "Id": "America/Bahia_Banderas",
+        "Display": "(UTC-05:00) Amérique/Bahia de Banderas"
+    },
+    {
+        "Id": "America/Bogota",
+        "Display": "(UTC-05:00) Amérique/Bogota"
+    },
+    {
+        "Id": "America/Cancun",
+        "Display": "(UTC-05:00) Amérique/Cancún"
+    },
+    {
+        "Id": "America/Cayman",
+        "Display": "(UTC-05:00) Amérique/Caïmans"
+    },
+    {
+        "Id": "America/Chicago",
+        "Display": "(UTC-05:00) Amérique/Chicago"
+    },
+    {
+        "Id": "America/Eirunepe",
+        "Display": "(UTC-05:00) Amérique/Eirunepé"
+    },
+    {
+        "Id": "America/Guayaquil",
+        "Display": "(UTC-05:00) Amérique/Guayaquil"
+    },
+    {
+        "Id": "America/Indiana/Knox",
+        "Display": "(UTC-05:00) Amérique/Indiana/Knox [Indiana]"
+    },
+    {
+        "Id": "America/Indiana/Tell_City",
+        "Display": "(UTC-05:00) Amérique/Indiana/Tell City [Indiana]"
+    },
+    {
+        "Id": "America/Jamaica",
+        "Display": "(UTC-05:00) Amérique/Jamaïque"
+    },
+    {
+        "Id": "America/Lima",
+        "Display": "(UTC-05:00) Amérique/Lima"
+    },
+    {
+        "Id": "America/Matamoros",
+        "Display": "(UTC-05:00) Amérique/Matamoros"
+    },
+    {
+        "Id": "America/Menominee",
+        "Display": "(UTC-05:00) Amérique/Menominee"
+    },
+    {
+        "Id": "America/Merida",
+        "Display": "(UTC-05:00) Amérique/Mérida"
+    },
+    {
+        "Id": "America/Mexico_City",
+        "Display": "(UTC-05:00) Amérique/Mexico"
+    },
+    {
+        "Id": "America/Monterrey",
+        "Display": "(UTC-05:00) Amérique/Monterrey"
+    },
+    {
+        "Id": "America/North_Dakota/Beulah",
+        "Display": "(UTC-05:00) Amérique/North_Dakota/Beulah (Dakota du Nord)"
+    },
+    {
+        "Id": "America/North_Dakota/Center",
+        "Display": "(UTC-05:00) Amérique/North_Dakota/Center (Dakota du Nord)"
+    },
+    {
+        "Id": "America/North_Dakota/New_Salem",
+        "Display": "(UTC-05:00) Amérique/North_Dakota/New Salem (Dakota du Nord)"
+    },
+    {
+        "Id": "America/Panama",
+        "Display": "(UTC-05:00) Amérique/Panama"
+    },
+    {
+        "Id": "America/Rainy_River",
+        "Display": "(UTC-05:00) Amérique/Rainy River"
+    },
+    {
+        "Id": "America/Rankin_Inlet",
+        "Display": "(UTC-05:00) Amérique/Rankin Inlet"
+    },
+    {
+        "Id": "America/Resolute",
+        "Display": "(UTC-05:00) Amérique/Resolute"
+    },
+    {
+        "Id": "America/Rio_Branco",
+        "Display": "(UTC-05:00) Amérique/Rio Branco"
+    },
+    {
+        "Id": "America/Winnipeg",
+        "Display": "(UTC-05:00) Amérique/Winnipeg"
+    },
+    {
+        "Id": "Pacific/Easter",
+        "Display": "(UTC-05:00) Pacífico/Île de Pâques"
+    },
+    {
+        "Id": "America/Caracas",
+        "Display": "(UTC-04:30) Amérique/Caracas"
+    },
+    {
+        "Id": "America/Anguilla",
+        "Display": "(UTC-04:00) Amérique/Anguilla"
+    },
+    {
+        "Id": "America/Antigua",
+        "Display": "(UTC-04:00) Amérique/Antigua"
+    },
+    {
+        "Id": "America/Aruba",
+        "Display": "(UTC-04:00) Amérique/Aruba"
+    },
+    {
+        "Id": "America/Asuncion",
+        "Display": "(UTC-04:00) Amérique/Asunción"
+    },
+    {
+        "Id": "America/Barbados",
+        "Display": "(UTC-04:00) Amérique/La Barbade"
+    },
+    {
+        "Id": "America/Blanc-Sablon",
+        "Display": "(UTC-04:00) Amérique/Blanc-Sablon"
+    },
+    {
+        "Id": "America/Boa_Vista",
+        "Display": "(UTC-04:00) Amérique/Boa Vista"
+    },
+    {
+        "Id": "America/Campo_Grande",
+        "Display": "(UTC-04:00) Amérique/Campo Grande"
+    },
+    {
+        "Id": "America/Cuiaba",
+        "Display": "(UTC-04:00) Amérique/Cuiabá"
+    },
+    {
+        "Id": "America/Curacao",
+        "Display": "(UTC-04:00) Amérique/Curaçao"
+    },
+    {
+        "Id": "America/Detroit",
+        "Display": "(UTC-04:00) Amérique/Détroit"
+    },
+    {
+        "Id": "America/Dominica",
+        "Display": "(UTC-04:00) Amérique/Dominique"
+    },
+    {
+        "Id": "America/Grand_Turk",
+        "Display": "(UTC-04:00) Amérique/Grand Turk"
+    },
+    {
+        "Id": "America/Grenada",
+        "Display": "(UTC-04:00) Amérique/Grenade"
+    },
+    {
+        "Id": "America/Guadeloupe",
+        "Display": "(UTC-04:00) Amérique/Guadeloupe"
+    },
+    {
+        "Id": "America/Guyana",
+        "Display": "(UTC-04:00) Amérique/Guyana"
+    },
+    {
+        "Id": "America/Havana",
+        "Display": "(UTC-04:00) Amérique/La Havane"
+    },
+    {
+        "Id": "America/Indiana/Indianapolis",
+        "Display": "(UTC-04:00) America/Indiana/Indianapolis"
+    },
+    {
+        "Id": "America/Indiana/Marengo",
+        "Display": "(UTC-04:00) Amérique/Indiana/Marengo [Indiana]"
+    },
+    {
+        "Id": "America/Indiana/Petersburg",
+        "Display": "(UTC-04:00) Amérique/Indiana/Petersburg [Indiana]"
+    },
+    {
+        "Id": "America/Indiana/Vevay",
+        "Display": "(UTC-04:00) Amérique/Indiana/Vevay [Indiana]"
+    },
+    {
+        "Id": "America/Indiana/Vincennes",
+        "Display": "(UTC-04:00) Amérique/Indiana/Vincennes [Indiana]"
+    },
+    {
+        "Id": "America/Indiana/Winamac",
+        "Display": "(UTC-04:00) Amérique/Indiana/Winamac [Indiana]"
+    },
+    {
+        "Id": "America/Iqaluit",
+        "Display": "(UTC-04:00) Amérique/Iqaluit"
+    },
+    {
+        "Id": "America/Kentucky/Louisville",
+        "Display": "(UTC-04:00) America/Kentucky/Louisville"
+    },
+    {
+        "Id": "America/Kentucky/Monticello",
+        "Display": "(UTC-04:00) Amérique/Kentucky/Monticello [Kentucky]"
+    },
+    {
+        "Id": "America/Kralendijk",
+        "Display": "(UTC-04:00) Amérique/Kralendijk"
+    },
+    {
+        "Id": "America/La_Paz",
+        "Display": "(UTC-04:00) Amérique/La Paz"
+    },
+    {
+        "Id": "America/Lower_Princes",
+        "Display": "(UTC-04:00) Amérique/Lower Prince’s Quarter"
+    },
+    {
+        "Id": "America/Manaus",
+        "Display": "(UTC-04:00) Amérique/Manaos"
+    },
+    {
+        "Id": "America/Marigot",
+        "Display": "(UTC-04:00) Amérique/Marigot"
+    },
+    {
+        "Id": "America/Martinique",
+        "Display": "(UTC-04:00) Amérique/Martinique"
+    },
+    {
+        "Id": "America/Montserrat",
+        "Display": "(UTC-04:00) Amérique/Montserrat"
+    },
+    {
+        "Id": "America/Nassau",
+        "Display": "(UTC-04:00) Amérique/Nassau"
+    },
+    {
+        "Id": "America/New_York",
+        "Display": "(UTC-04:00) Amérique/New York"
+    },
+    {
+        "Id": "America/Nipigon",
+        "Display": "(UTC-04:00) Amérique/Nipigon"
+    },
+    {
+        "Id": "America/Pangnirtung",
+        "Display": "(UTC-04:00) Amérique/Pangnirtung"
+    },
+    {
+        "Id": "America/Port_of_Spain",
+        "Display": "(UTC-04:00) Amérique/Port-d’Espagne"
+    },
+    {
+        "Id": "America/Port-au-Prince",
+        "Display": "(UTC-04:00) Amérique/Port-au-Prince"
+    },
+    {
+        "Id": "America/Porto_Velho",
+        "Display": "(UTC-04:00) Amérique/Porto Velho"
+    },
+    {
+        "Id": "America/Puerto_Rico",
+        "Display": "(UTC-04:00) Amérique/Porto Rico"
+    },
+    {
+        "Id": "America/Santo_Domingo",
+        "Display": "(UTC-04:00) Amérique/Saint-Domingue"
+    },
+    {
+        "Id": "America/St_Barthelemy",
+        "Display": "(UTC-04:00) Amérique/Saint-Barthélemy"
+    },
+    {
+        "Id": "America/St_Kitts",
+        "Display": "(UTC-04:00) Amérique/Saint-Kitts"
+    },
+    {
+        "Id": "America/St_Lucia",
+        "Display": "(UTC-04:00) Amérique/Sainte-Lucie"
+    },
+    {
+        "Id": "America/St_Thomas",
+        "Display": "(UTC-04:00) Amérique/Saint-Thomas"
+    },
+    {
+        "Id": "America/St_Vincent",
+        "Display": "(UTC-04:00) Amérique/Saint-Vincent"
+    },
+    {
+        "Id": "America/Thunder_Bay",
+        "Display": "(UTC-04:00) Amérique/Thunder Bay"
+    },
+    {
+        "Id": "America/Toronto",
+        "Display": "(UTC-04:00) Amérique/Toronto"
+    },
+    {
+        "Id": "America/Tortola",
+        "Display": "(UTC-04:00) Amérique/Tortola"
+    },
+    {
+        "Id": "America/Araguaina",
+        "Display": "(UTC-03:00) Amérique/Araguaína"
+    },
+    {
+        "Id": "America/Argentina/Buenos_Aires",
+        "Display": "(UTC-03:00) America/Argentina/Buenos Aires"
+    },
+    {
+        "Id": "America/Argentina/Catamarca",
+        "Display": "(UTC-03:00) America/Argentina/Catamarca"
+    },
+    {
+        "Id": "America/Argentina/Cordoba",
+        "Display": "(UTC-03:00) America/Argentina/Cordoba"
+    },
+    {
+        "Id": "America/Argentina/Jujuy",
+        "Display": "(UTC-03:00) America/Argentina/Jujuy"
+    },
+    {
+        "Id": "America/Argentina/La_Rioja",
+        "Display": "(UTC-03:00) Amérique/Argentina/La Rioja"
+    },
+    {
+        "Id": "America/Argentina/Mendoza",
+        "Display": "(UTC-03:00) America/Argentina/Mendoza"
+    },
+    {
+        "Id": "America/Argentina/Rio_Gallegos",
+        "Display": "(UTC-03:00) Amérique/Argentina/Río Gallegos"
+    },
+    {
+        "Id": "America/Argentina/Salta",
+        "Display": "(UTC-03:00) Amérique/Argentina/Salta"
+    },
+    {
+        "Id": "America/Argentina/San_Juan",
+        "Display": "(UTC-03:00) Amérique/Argentina/San Juan"
+    },
+    {
+        "Id": "America/Argentina/San_Luis",
+        "Display": "(UTC-03:00) Amérique/Argentina/San Luis"
+    },
+    {
+        "Id": "America/Argentina/Tucuman",
+        "Display": "(UTC-03:00) Amérique/Argentina/Tucumán"
+    },
+    {
+        "Id": "America/Argentina/Ushuaia",
+        "Display": "(UTC-03:00) Amérique/Argentina/Ushuaïa"
+    },
+    {
+        "Id": "America/Bahia",
+        "Display": "(UTC-03:00) Amérique/Bahia"
+    },
+    {
+        "Id": "America/Belem",
+        "Display": "(UTC-03:00) Amérique/Belém"
+    },
+    {
+        "Id": "America/Cayenne",
+        "Display": "(UTC-03:00) Amérique/Cayenne"
+    },
+    {
+        "Id": "America/Fortaleza",
+        "Display": "(UTC-03:00) Amérique/Fortaleza"
+    },
+    {
+        "Id": "America/Glace_Bay",
+        "Display": "(UTC-03:00) Amérique/Glace Bay"
+    },
+    {
+        "Id": "America/Goose_Bay",
+        "Display": "(UTC-03:00) Amérique/Goose Bay"
+    },
+    {
+        "Id": "America/Halifax",
+        "Display": "(UTC-03:00) Amérique/Halifax"
+    },
+    {
+        "Id": "America/Maceio",
+        "Display": "(UTC-03:00) Amérique/Maceió"
+    },
+    {
+        "Id": "America/Moncton",
+        "Display": "(UTC-03:00) Amérique/Moncton"
+    },
+    {
+        "Id": "America/Montevideo",
+        "Display": "(UTC-03:00) Amérique/Montevideo"
+    },
+    {
+        "Id": "America/Paramaribo",
+        "Display": "(UTC-03:00) Amérique/Paramaribo"
+    },
+    {
+        "Id": "America/Recife",
+        "Display": "(UTC-03:00) Amérique/Recife"
+    },
+    {
+        "Id": "America/Santarem",
+        "Display": "(UTC-03:00) Amérique/Santarém"
+    },
+    {
+        "Id": "America/Santiago",
+        "Display": "(UTC-03:00) Amérique/Santiago"
+    },
+    {
+        "Id": "America/Sao_Paulo",
+        "Display": "(UTC-03:00) Amérique/São Paulo"
+    },
+    {
+        "Id": "America/Thule",
+        "Display": "(UTC-03:00) Amérique/Thulé"
+    },
+    {
+        "Id": "Antarctica/Palmer",
+        "Display": "(UTC-03:00) Antártida/Palmer"
+    },
+    {
+        "Id": "Antarctica/Rothera",
+        "Display": "(UTC-03:00) Antártida/Rothera"
+    },
+    {
+        "Id": "Atlantic/Bermuda",
+        "Display": "(UTC-03:00) Atlantique/Bermudes"
+    },
+    {
+        "Id": "Atlantic/Stanley",
+        "Display": "(UTC-03:00) Atlantique/Stanley"
+    },
+    {
+        "Id": "America/St_Johns",
+        "Display": "(UTC-02:30) Amérique/Saint-Jean de Terre-Neuve"
+    },
+    {
+        "Id": "America/Godthab",
+        "Display": "(UTC-02:00) Amérique/Nuuk"
+    },
+    {
+        "Id": "America/Miquelon",
+        "Display": "(UTC-02:00) Amérique/Miquelon"
+    },
+    {
+        "Id": "America/Noronha",
+        "Display": "(UTC-02:00) Amérique/Noronha"
+    },
+    {
+        "Id": "Atlantic/South_Georgia",
+        "Display": "(UTC-02:00) Atlantique/Géorgie du Sud"
+    },
+    {
+        "Id": "Atlantic/Cape_Verde",
+        "Display": "(UTC-01:00) Atlantique/Cap-Vert"
+    },
+    {
+        "Id": "Africa/Abidjan",
+        "Display": "(UTC) Afrique /Abidjan"
+    },
+    {
+        "Id": "Africa/Accra",
+        "Display": "(UTC) Afrique /Accra"
+    },
+    {
+        "Id": "Africa/Bamako",
+        "Display": "(UTC) Afrique /Bamako"
+    },
+    {
+        "Id": "Africa/Banjul",
+        "Display": "(UTC) Afrique /Banjul"
+    },
+    {
+        "Id": "Africa/Bissau",
+        "Display": "(UTC) Afrique /Bissau"
+    },
+    {
+        "Id": "Africa/Conakry",
+        "Display": "(UTC) Afrique /Conakry"
+    },
+    {
+        "Id": "Africa/Dakar",
+        "Display": "(UTC) Afrique /Dakar"
+    },
+    {
+        "Id": "Africa/Freetown",
+        "Display": "(UTC) Afrique /Freetown"
+    },
+    {
+        "Id": "Africa/Lome",
+        "Display": "(UTC) Afrique /Lomé"
+    },
+    {
+        "Id": "Africa/Monrovia",
+        "Display": "(UTC) Afrique /Monrovia"
+    },
+    {
+        "Id": "Africa/Nouakchott",
+        "Display": "(UTC) Afrique /Nouakchott"
+    },
+    {
+        "Id": "Africa/Ouagadougou",
+        "Display": "(UTC) Afrique /Ouagadougou"
+    },
+    {
+        "Id": "Africa/Sao_Tome",
+        "Display": "(UTC) Afrique /São Tomé"
+    },
+    {
+        "Id": "America/Danmarkshavn",
+        "Display": "(UTC) Amérique/Danmarkshavn"
+    },
+    {
+        "Id": "America/Scoresbysund",
+        "Display": "(UTC) Amérique/Ittoqqortoormiit"
+    },
+    {
+        "Id": "Atlantic/Azores",
+        "Display": "(UTC) Atlantique/Açores"
+    },
+    {
+        "Id": "Atlantic/Reykjavik",
+        "Display": "(UTC) Atlantique/Reykjavik"
+    },
+    {
+        "Id": "Atlantic/St_Helena",
+        "Display": "(UTC) Atlantique/Sainte-Hélène"
+    },
+    {
+        "Id": "Africa/Algiers",
+        "Display": "(UTC+01:00) Afrique /Alger"
+    },
+    {
+        "Id": "Africa/Bangui",
+        "Display": "(UTC+01:00) Afrique /Bangui"
+    },
+    {
+        "Id": "Africa/Brazzaville",
+        "Display": "(UTC+01:00) Afrique /Brazzaville"
+    },
+    {
+        "Id": "Africa/Casablanca",
+        "Display": "(UTC+01:00) Afrique /Casablanca"
+    },
+    {
+        "Id": "Africa/Douala",
+        "Display": "(UTC+01:00) Afrique /Douala"
+    },
+    {
+        "Id": "Africa/El_Aaiun",
+        "Display": "(UTC+01:00) Afrique /Laâyoune"
+    },
+    {
+        "Id": "Africa/Kinshasa",
+        "Display": "(UTC+01:00) Afrique /Kinshasa"
+    },
+    {
+        "Id": "Africa/Lagos",
+        "Display": "(UTC+01:00) Afrique /Lagos"
+    },
+    {
+        "Id": "Africa/Libreville",
+        "Display": "(UTC+01:00) Afrique /Libreville"
+    },
+    {
+        "Id": "Africa/Luanda",
+        "Display": "(UTC+01:00) Afrique /Luanda"
+    },
+    {
+        "Id": "Africa/Malabo",
+        "Display": "(UTC+01:00) Afrique /Malabo"
+    },
+    {
+        "Id": "Africa/Ndjamena",
+        "Display": "(UTC+01:00) Afrique /N’Djamena"
+    },
+    {
+        "Id": "Africa/Niamey",
+        "Display": "(UTC+01:00) Afrique /Niamey"
+    },
+    {
+        "Id": "Africa/Porto-Novo",
+        "Display": "(UTC+01:00) Afrique /Porto-Novo"
+    },
+    {
+        "Id": "Africa/Tunis",
+        "Display": "(UTC+01:00) Afrique /Tunis"
+    },
+    {
+        "Id": "Africa/Windhoek",
+        "Display": "(UTC+01:00) Afrique /Windhoek"
+    },
+    {
+        "Id": "Atlantic/Canary",
+        "Display": "(UTC+01:00) Atlantique/Îles Canaries"
+    },
+    {
+        "Id": "Atlantic/Faroe",
+        "Display": "(UTC+01:00) Atlantic/Faroe"
+    },
+    {
+        "Id": "Atlantic/Madeira",
+        "Display": "(UTC+01:00) Atlantique/Madère"
+    },
+    {
+        "Id": "Europe/Dublin",
+        "Display": "(UTC+01:00) Europé/Dublin"
+    },
+    {
+        "Id": "Europe/Guernsey",
+        "Display": "(UTC+01:00) Europé/Guernesey"
+    },
+    {
+        "Id": "Europe/Isle_of_Man",
+        "Display": "(UTC+01:00) Europé/Île de Man"
+    },
+    {
+        "Id": "Europe/Jersey",
+        "Display": "(UTC+01:00) Europé/Jersey"
+    },
+    {
+        "Id": "Europe/Lisbon",
+        "Display": "(UTC+01:00) Europé/Lisbonne"
+    },
+    {
+        "Id": "Europe/London",
+        "Display": "(UTC+01:00) Europé/Londres"
+    },
+    {
+        "Id": "Africa/Blantyre",
+        "Display": "(UTC+02:00) Afrique /Blantyre"
+    },
+    {
+        "Id": "Africa/Bujumbura",
+        "Display": "(UTC+02:00) Afrique /Bujumbura"
+    },
+    {
+        "Id": "Africa/Ceuta",
+        "Display": "(UTC+02:00) Afrique /Ceuta"
+    },
+    {
+        "Id": "Africa/Gaborone",
+        "Display": "(UTC+02:00) Afrique /Gaborone"
+    },
+    {
+        "Id": "Africa/Harare",
+        "Display": "(UTC+02:00) Afrique /Harare"
+    },
+    {
+        "Id": "Africa/Johannesburg",
+        "Display": "(UTC+02:00) Afrique /Johannesburg"
+    },
+    {
+        "Id": "Africa/Kigali",
+        "Display": "(UTC+02:00) Afrique /Kigali"
+    },
+    {
+        "Id": "Africa/Lubumbashi",
+        "Display": "(UTC+02:00) Afrique /Lubumbashi"
+    },
+    {
+        "Id": "Africa/Lusaka",
+        "Display": "(UTC+02:00) Afrique /Lusaka"
+    },
+    {
+        "Id": "Africa/Maputo",
+        "Display": "(UTC+02:00) Afrique /Maputo"
+    },
+    {
+        "Id": "Africa/Maseru",
+        "Display": "(UTC+02:00) Afrique /Maseru"
+    },
+    {
+        "Id": "Africa/Mbabane",
+        "Display": "(UTC+02:00) Afrique /Mbabane"
+    },
+    {
+        "Id": "Africa/Tripoli",
+        "Display": "(UTC+02:00) Afrique /Tripoli (Libye)"
+    },
+    {
+        "Id": "Antarctica/Troll",
+        "Display": "(UTC+02:00) Antártida/Troll"
+    },
+    {
+        "Id": "Arctic/Longyearbyen",
+        "Display": "(UTC+02:00) Ártico/Longyearbyen"
+    },
+    {
+        "Id": "Europe/Amsterdam",
+        "Display": "(UTC+02:00) Europé/Amsterdam"
+    },
+    {
+        "Id": "Europe/Andorra",
+        "Display": "(UTC+02:00) Europé/Andorre"
+    },
+    {
+        "Id": "Europe/Belgrade",
+        "Display": "(UTC+02:00) Europé/Belgrade"
+    },
+    {
+        "Id": "Europe/Berlin",
+        "Display": "(UTC+02:00) Europé/Berlin"
+    },
+    {
+        "Id": "Europe/Bratislava",
+        "Display": "(UTC+02:00) Europé/Bratislava"
+    },
+    {
+        "Id": "Europe/Brussels",
+        "Display": "(UTC+02:00) Europé/Bruxelles"
+    },
+    {
+        "Id": "Europe/Budapest",
+        "Display": "(UTC+02:00) Europé/Budapest"
+    },
+    {
+        "Id": "Europe/Busingen",
+        "Display": "(UTC+02:00) Europé/Büsingen"
+    },
+    {
+        "Id": "Europe/Copenhagen",
+        "Display": "(UTC+02:00) Europé/Copenhague"
+    },
+    {
+        "Id": "Europe/Gibraltar",
+        "Display": "(UTC+02:00) Europé/Gibraltar"
+    },
+    {
+        "Id": "Europe/Kaliningrad",
+        "Display": "(UTC+02:00) Europé/Kaliningrad"
+    },
+    {
+        "Id": "Europe/Ljubljana",
+        "Display": "(UTC+02:00) Europé/Ljubljana"
+    },
+    {
+        "Id": "Europe/Luxembourg",
+        "Display": "(UTC+02:00) Europé/Luxembourg"
+    },
+    {
+        "Id": "Europe/Madrid",
+        "Display": "(UTC+02:00) Europé/Madrid"
+    },
+    {
+        "Id": "Europe/Malta",
+        "Display": "(UTC+02:00) Europé/Malte"
+    },
+    {
+        "Id": "Europe/Monaco",
+        "Display": "(UTC+02:00) Europé/Monaco"
+    },
+    {
+        "Id": "Europe/Oslo",
+        "Display": "(UTC+02:00) Europé/Oslo"
+    },
+    {
+        "Id": "Europe/Paris",
+        "Display": "(UTC+02:00) Europé/Paris"
+    },
+    {
+        "Id": "Europe/Podgorica",
+        "Display": "(UTC+02:00) Europé/Podgorica"
+    },
+    {
+        "Id": "Europe/Prague",
+        "Display": "(UTC+02:00) Europé/Prague"
+    },
+    {
+        "Id": "Europe/Rome",
+        "Display": "(UTC+02:00) Europé/Rome"
+    },
+    {
+        "Id": "Europe/San_Marino",
+        "Display": "(UTC+02:00) Europé/Saint-Marin"
+    },
+    {
+        "Id": "Europe/Sarajevo",
+        "Display": "(UTC+02:00) Europé/Sarajevo"
+    },
+    {
+        "Id": "Europe/Skopje",
+        "Display": "(UTC+02:00) Europé/Skopje"
+    },
+    {
+        "Id": "Europe/Stockholm",
+        "Display": "(UTC+02:00) Europé/Stockholm"
+    },
+    {
+        "Id": "Europe/Tirane",
+        "Display": "(UTC+02:00) Europé/Tirana"
+    },
+    {
+        "Id": "Europe/Vaduz",
+        "Display": "(UTC+02:00) Europé/Vaduz"
+    },
+    {
+        "Id": "Europe/Vatican",
+        "Display": "(UTC+02:00) Europé/Le Vatican"
+    },
+    {
+        "Id": "Europe/Vienna",
+        "Display": "(UTC+02:00) Europé/Vienne"
+    },
+    {
+        "Id": "Europe/Warsaw",
+        "Display": "(UTC+02:00) Europé/Varsovie"
+    },
+    {
+        "Id": "Europe/Zagreb",
+        "Display": "(UTC+02:00) Europé/Zagreb"
+    },
+    {
+        "Id": "Europe/Zurich",
+        "Display": "(UTC+02:00) Europé/Zurich"
+    },
+    {
+        "Id": "Africa/Addis_Ababa",
+        "Display": "(UTC+03:00) Afrique /Addis-Abeba"
+    },
+    {
+        "Id": "Africa/Asmara",
+        "Display": "(UTC+03:00) Africa/Asmara"
+    },
+    {
+        "Id": "Africa/Cairo",
+        "Display": "(UTC+03:00) Afrique /Le Caire"
+    },
+    {
+        "Id": "Africa/Dar_es_Salaam",
+        "Display": "(UTC+03:00) Afrique /Dar es Salaam"
+    },
+    {
+        "Id": "Africa/Djibouti",
+        "Display": "(UTC+03:00) Afrique /Djibouti"
+    },
+    {
+        "Id": "Africa/Juba",
+        "Display": "(UTC+03:00) Afrique /Juba"
+    },
+    {
+        "Id": "Africa/Kampala",
+        "Display": "(UTC+03:00) Afrique /Kampala"
+    },
+    {
+        "Id": "Africa/Khartoum",
+        "Display": "(UTC+03:00) Afrique /Khartoum"
+    },
+    {
+        "Id": "Africa/Mogadishu",
+        "Display": "(UTC+03:00) Afrique /Mogadiscio"
+    },
+    {
+        "Id": "Africa/Nairobi",
+        "Display": "(UTC+03:00) Afrique /Nairobi"
+    },
+    {
+        "Id": "Antarctica/Syowa",
+        "Display": "(UTC+03:00) Antártida/Showa"
+    },
+    {
+        "Id": "Asia/Aden",
+        "Display": "(UTC+03:00) Asie /Aden"
+    },
+    {
+        "Id": "Asia/Amman",
+        "Display": "(UTC+03:00) Asie /Amman"
+    },
+    {
+        "Id": "Asia/Baghdad",
+        "Display": "(UTC+03:00) Asie /Bagdad"
+    },
+    {
+        "Id": "Asia/Bahrain",
+        "Display": "(UTC+03:00) Asie /Bahreïn"
+    },
+    {
+        "Id": "Asia/Beirut",
+        "Display": "(UTC+03:00) Asie /Beyrouth"
+    },
+    {
+        "Id": "Asia/Damascus",
+        "Display": "(UTC+03:00) Asie /Damas"
+    },
+    {
+        "Id": "Asia/Gaza",
+        "Display": "(UTC+03:00) Asie /Gaza"
+    },
+    {
+        "Id": "Asia/Hebron",
+        "Display": "(UTC+03:00) Asie /Hébron"
+    },
+    {
+        "Id": "Asia/Jerusalem",
+        "Display": "(UTC+03:00) Asie /Jérusalem"
+    },
+    {
+        "Id": "Asia/Kuwait",
+        "Display": "(UTC+03:00) Asie /Koweït"
+    },
+    {
+        "Id": "Asia/Nicosia",
+        "Display": "(UTC+03:00) Asie /Nicosie"
+    },
+    {
+        "Id": "Asia/Qatar",
+        "Display": "(UTC+03:00) Asie /Qatar"
+    },
+    {
+        "Id": "Asia/Riyadh",
+        "Display": "(UTC+03:00) Asie /Riyad"
+    },
+    {
+        "Id": "Europe/Athens",
+        "Display": "(UTC+03:00) Europé/Athènes"
+    },
+    {
+        "Id": "Europe/Bucharest",
+        "Display": "(UTC+03:00) Europé/Bucarest"
+    },
+    {
+        "Id": "Europe/Chisinau",
+        "Display": "(UTC+03:00) Europé/Chisinau"
+    },
+    {
+        "Id": "Europe/Helsinki",
+        "Display": "(UTC+03:00) Europé/Helsinki"
+    },
+    {
+        "Id": "Europe/Istanbul",
+        "Display": "(UTC+03:00) Europé/Istanbul"
+    },
+    {
+        "Id": "Europe/Kiev",
+        "Display": "(UTC+03:00) Europé/Kiev"
+    },
+    {
+        "Id": "Europe/Mariehamn",
+        "Display": "(UTC+03:00) Europé/Mariehamn"
+    },
+    {
+        "Id": "Europe/Minsk",
+        "Display": "(UTC+03:00) Europé/Minsk"
+    },
+    {
+        "Id": "Europe/Moscow",
+        "Display": "(UTC+03:00) Europé/Moscou"
+    },
+    {
+        "Id": "Europe/Riga",
+        "Display": "(UTC+03:00) Europé/Riga"
+    },
+    {
+        "Id": "Europe/Simferopol",
+        "Display": "(UTC+03:00) Europé/Simferopol"
+    },
+    {
+        "Id": "Europe/Sofia",
+        "Display": "(UTC+03:00) Europé/Sofia"
+    },
+    {
+        "Id": "Europe/Tallinn",
+        "Display": "(UTC+03:00) Europé/Tallinn"
+    },
+    {
+        "Id": "Europe/Uzhgorod",
+        "Display": "(UTC+03:00) Europé/Oujgorod"
+    },
+    {
+        "Id": "Europe/Vilnius",
+        "Display": "(UTC+03:00) Europé/Vilnius"
+    },
+    {
+        "Id": "Europe/Volgograd",
+        "Display": "(UTC+03:00) Europé/Volgograd"
+    },
+    {
+        "Id": "Europe/Zaporozhye",
+        "Display": "(UTC+03:00) Europé/Zaporojie"
+    },
+    {
+        "Id": "Indian/Antananarivo",
+        "Display": "(UTC+03:00) India/Antananarivo"
+    },
+    {
+        "Id": "Indian/Comoro",
+        "Display": "(UTC+03:00) India/Comores"
+    },
+    {
+        "Id": "Indian/Mayotte",
+        "Display": "(UTC+03:00) India/Mayotte"
+    },
+    {
+        "Id": "Asia/Dubai",
+        "Display": "(UTC+04:00) Asie /Dubaï"
+    },
+    {
+        "Id": "Asia/Muscat",
+        "Display": "(UTC+04:00) Asie /Mascate"
+    },
+    {
+        "Id": "Asia/Tbilisi",
+        "Display": "(UTC+04:00) Asie /Tbilissi"
+    },
+    {
+        "Id": "Asia/Yerevan",
+        "Display": "(UTC+04:00) Asie /Erevan"
+    },
+    {
+        "Id": "Europe/Samara",
+        "Display": "(UTC+04:00) Europé/Samara"
+    },
+    {
+        "Id": "Indian/Mahe",
+        "Display": "(UTC+04:00) India/Mahé"
+    },
+    {
+        "Id": "Indian/Mauritius",
+        "Display": "(UTC+04:00) India/Maurice"
+    },
+    {
+        "Id": "Indian/Reunion",
+        "Display": "(UTC+04:00) India/La Réunion"
+    },
+    {
+        "Id": "Asia/Kabul",
+        "Display": "(UTC+04:30) Asie /Kaboul"
+    },
+    {
+        "Id": "Asia/Tehran",
+        "Display": "(UTC+04:30) Asie /Téhéran"
+    },
+    {
+        "Id": "Antarctica/Mawson",
+        "Display": "(UTC+05:00) Antártida/Mawson"
+    },
+    {
+        "Id": "Asia/Aqtau",
+        "Display": "(UTC+05:00) Asie /Aktaou"
+    },
+    {
+        "Id": "Asia/Aqtobe",
+        "Display": "(UTC+05:00) Asie /Aktioubinsk"
+    },
+    {
+        "Id": "Asia/Ashgabat",
+        "Display": "(UTC+05:00) Asie /Achgabat"
+    },
+    {
+        "Id": "Asia/Baku",
+        "Display": "(UTC+05:00) Asie /Bakou"
+    },
+    {
+        "Id": "Asia/Dushanbe",
+        "Display": "(UTC+05:00) Asie /Douchanbé"
+    },
+    {
+        "Id": "Asia/Karachi",
+        "Display": "(UTC+05:00) Asie /Karachi"
+    },
+    {
+        "Id": "Asia/Oral",
+        "Display": "(UTC+05:00) Asie /Ouralsk"
+    },
+    {
+        "Id": "Asia/Samarkand",
+        "Display": "(UTC+05:00) Asie /Samarcande"
+    },
+    {
+        "Id": "Asia/Tashkent",
+        "Display": "(UTC+05:00) Asie /Tachkent"
+    },
+    {
+        "Id": "Asia/Yekaterinburg",
+        "Display": "(UTC+05:00) Asie /Ekaterinbourg"
+    },
+    {
+        "Id": "Indian/Kerguelen",
+        "Display": "(UTC+05:00) India/Kerguelen"
+    },
+    {
+        "Id": "Indian/Maldives",
+        "Display": "(UTC+05:00) India/Maldives"
+    },
+    {
+        "Id": "Asia/Colombo",
+        "Display": "(UTC+05:30) Asie /Colombo"
+    },
+    {
+        "Id": "Asia/Kolkata",
+        "Display": "(UTC+05:30) Asia/Kolkata"
+    },
+    {
+        "Id": "Asia/Kathmandu",
+        "Display": "(UTC+05:45) Asia/Kathmandu"
+    },
+    {
+        "Id": "Antarctica/Vostok",
+        "Display": "(UTC+06:00) Antártida/Vostok"
+    },
+    {
+        "Id": "Asia/Almaty",
+        "Display": "(UTC+06:00) Asie /Alma Ata"
+    },
+    {
+        "Id": "Asia/Bishkek",
+        "Display": "(UTC+06:00) Asie /Bichkek"
+    },
+    {
+        "Id": "Asia/Dhaka",
+        "Display": "(UTC+06:00) Asie /Dhaka"
+    },
+    {
+        "Id": "Asia/Novosibirsk",
+        "Display": "(UTC+06:00) Asie /Novossibirsk"
+    },
+    {
+        "Id": "Asia/Omsk",
+        "Display": "(UTC+06:00) Asie /Omsk"
+    },
+    {
+        "Id": "Asia/Qyzylorda",
+        "Display": "(UTC+06:00) Asie /Kzyl Orda"
+    },
+    {
+        "Id": "Asia/Thimphu",
+        "Display": "(UTC+06:00) Asie /Thimphu"
+    },
+    {
+        "Id": "Asia/Urumqi",
+        "Display": "(UTC+06:00) Asie /Ürümqi"
+    },
+    {
+        "Id": "Indian/Chagos",
+        "Display": "(UTC+06:00) India/Chagos"
+    },
+    {
+        "Id": "Asia/Rangoon",
+        "Display": "(UTC+06:30) Asie /Rangoun"
+    },
+    {
+        "Id": "Indian/Cocos",
+        "Display": "(UTC+06:30) India/Cocos"
+    },
+    {
+        "Id": "Antarctica/Davis",
+        "Display": "(UTC+07:00) Antártida/Davis"
+    },
+    {
+        "Id": "Asia/Bangkok",
+        "Display": "(UTC+07:00) Asie /Bangkok"
+    },
+    {
+        "Id": "Asia/Ho_Chi_Minh",
+        "Display": "(UTC+07:00) Asia/Ho Chi Minh"
+    },
+    {
+        "Id": "Asia/Hovd",
+        "Display": "(UTC+07:00) Asie /Hovd"
+    },
+    {
+        "Id": "Asia/Jakarta",
+        "Display": "(UTC+07:00) Asie /Jakarta"
+    },
+    {
+        "Id": "Asia/Krasnoyarsk",
+        "Display": "(UTC+07:00) Asie /Krasnoïarsk"
+    },
+    {
+        "Id": "Asia/Novokuznetsk",
+        "Display": "(UTC+07:00) Asie /Novokuznetsk"
+    },
+    {
+        "Id": "Asia/Phnom_Penh",
+        "Display": "(UTC+07:00) Asie /Phnom Penh"
+    },
+    {
+        "Id": "Asia/Pontianak",
+        "Display": "(UTC+07:00) Asie /Pontianak"
+    },
+    {
+        "Id": "Asia/Vientiane",
+        "Display": "(UTC+07:00) Asie /Vientiane"
+    },
+    {
+        "Id": "Indian/Christmas",
+        "Display": "(UTC+07:00) India/Christmas"
+    },
+    {
+        "Id": "Antarctica/Casey",
+        "Display": "(UTC+08:00) Antártida/Casey"
+    },
+    {
+        "Id": "Asia/Brunei",
+        "Display": "(UTC+08:00) Asie /Brunei"
+    },
+    {
+        "Id": "Asia/Chita",
+        "Display": "(UTC+08:00) Asie /Tchita"
+    },
+    {
+        "Id": "Asia/Choibalsan",
+        "Display": "(UTC+08:00) Asie /Tchoïbalsan"
+    },
+    {
+        "Id": "Asia/Hong_Kong",
+        "Display": "(UTC+08:00) Asie /Hong Kong"
+    },
+    {
+        "Id": "Asia/Irkutsk",
+        "Display": "(UTC+08:00) Asie /Irkoutsk"
+    },
+    {
+        "Id": "Asia/Kuala_Lumpur",
+        "Display": "(UTC+08:00) Asie /Kuala Lumpur"
+    },
+    {
+        "Id": "Asia/Kuching",
+        "Display": "(UTC+08:00) Asie /Kuching"
+    },
+    {
+        "Id": "Asia/Macau",
+        "Display": "(UTC+08:00) Asie /Macao"
+    },
+    {
+        "Id": "Asia/Makassar",
+        "Display": "(UTC+08:00) Asie /Macassar"
+    },
+    {
+        "Id": "Asia/Manila",
+        "Display": "(UTC+08:00) Asie /Manille"
+    },
+    {
+        "Id": "Asia/Shanghai",
+        "Display": "(UTC+08:00) Asie /Shanghai"
+    },
+    {
+        "Id": "Asia/Singapore",
+        "Display": "(UTC+08:00) Asie /Singapour"
+    },
+    {
+        "Id": "Asia/Taipei",
+        "Display": "(UTC+08:00) Asie /Taipei"
+    },
+    {
+        "Id": "Asia/Ulaanbaatar",
+        "Display": "(UTC+08:00) Asie /Oulan-Bator"
+    },
+    {
+        "Id": "Australia/Perth",
+        "Display": "(UTC+08:00) Australie /Perth"
+    },
+    {
+        "Id": "Australia/Eucla",
+        "Display": "(UTC+08:45) Australie /Eucla"
+    },
+    {
+        "Id": "Asia/Dili",
+        "Display": "(UTC+09:00) Asie /Dili"
+    },
+    {
+        "Id": "Asia/Jayapura",
+        "Display": "(UTC+09:00) Asie /Jayapura"
+    },
+    {
+        "Id": "Asia/Khandyga",
+        "Display": "(UTC+09:00) Asie /Khandyga"
+    },
+    {
+        "Id": "Asia/Pyongyang",
+        "Display": "(UTC+09:00) Asie /Pyongyang"
+    },
+    {
+        "Id": "Asia/Seoul",
+        "Display": "(UTC+09:00) Asie /Séoul"
+    },
+    {
+        "Id": "Asia/Tokyo",
+        "Display": "(UTC+09:00) Asie /Tokyo"
+    },
+    {
+        "Id": "Asia/Yakutsk",
+        "Display": "(UTC+09:00) Asie /Iakoutsk"
+    },
+    {
+        "Id": "Pacific/Palau",
+        "Display": "(UTC+09:00) Pacífico/Palau"
+    },
+    {
+        "Id": "Australia/Adelaide",
+        "Display": "(UTC+09:30) Australie /Adélaïde"
+    },
+    {
+        "Id": "Australia/Broken_Hill",
+        "Display": "(UTC+09:30) Australie /Broken Hill"
+    },
+    {
+        "Id": "Australia/Darwin",
+        "Display": "(UTC+09:30) Australie /Darwin"
+    },
+    {
+        "Id": "Antarctica/DumontDUrville",
+        "Display": "(UTC+10:00) Antártida/Dumont d’Urville"
+    },
+    {
+        "Id": "Asia/Magadan",
+        "Display": "(UTC+10:00) Asie /Magadan"
+    },
+    {
+        "Id": "Asia/Sakhalin",
+        "Display": "(UTC+10:00) Asie /Sakhaline"
+    },
+    {
+        "Id": "Asia/Ust-Nera",
+        "Display": "(UTC+10:00) Asie /Ust-Nera"
+    },
+    {
+        "Id": "Asia/Vladivostok",
+        "Display": "(UTC+10:00) Asie /Vladivostok"
+    },
+    {
+        "Id": "Australia/Brisbane",
+        "Display": "(UTC+10:00) Australie /Brisbane"
+    },
+    {
+        "Id": "Australia/Currie",
+        "Display": "(UTC+10:00) Australie /Currie"
+    },
+    {
+        "Id": "Australia/Hobart",
+        "Display": "(UTC+10:00) Australie /Hobart"
+    },
+    {
+        "Id": "Australia/Lindeman",
+        "Display": "(UTC+10:00) Australie /Lindeman"
+    },
+    {
+        "Id": "Australia/Melbourne",
+        "Display": "(UTC+10:00) Australie /Melbourne"
+    },
+    {
+        "Id": "Australia/Sydney",
+        "Display": "(UTC+10:00) Australie /Sydney"
+    },
+    {
+        "Id": "Pacific/Chuuk",
+        "Display": "(UTC+10:00) Pacific/Chuuk"
+    },
+    {
+        "Id": "Pacific/Guam",
+        "Display": "(UTC+10:00) Pacífico/Guam"
+    },
+    {
+        "Id": "Pacific/Port_Moresby",
+        "Display": "(UTC+10:00) Pacífico/Port Moresby"
+    },
+    {
+        "Id": "Pacific/Saipan",
+        "Display": "(UTC+10:00) Pacífico/Saipan"
+    },
+    {
+        "Id": "Australia/Lord_Howe",
+        "Display": "(UTC+10:30) Australie /Lord Howe"
+    },
+    {
+        "Id": "Antarctica/Macquarie",
+        "Display": "(UTC+11:00) Antártida/Macquarie"
+    },
+    {
+        "Id": "Asia/Srednekolymsk",
+        "Display": "(UTC+11:00) Asie /Srednekolymsk"
+    },
+    {
+        "Id": "Pacific/Bougainville",
+        "Display": "(UTC+11:00) Pacífico/Bougainville"
+    },
+    {
+        "Id": "Pacific/Efate",
+        "Display": "(UTC+11:00) Pacífico/Éfaté"
+    },
+    {
+        "Id": "Pacific/Guadalcanal",
+        "Display": "(UTC+11:00) Pacífico/Guadalcanal"
+    },
+    {
+        "Id": "Pacific/Kosrae",
+        "Display": "(UTC+11:00) Pacífico/Kosrae"
+    },
+    {
+        "Id": "Pacific/Noumea",
+        "Display": "(UTC+11:00) Pacífico/Nouméa"
+    },
+    {
+        "Id": "Pacific/Pohnpei",
+        "Display": "(UTC+11:00) Pacific/Pohnpei"
+    },
+    {
+        "Id": "Pacific/Norfolk",
+        "Display": "(UTC+11:30) Pacífico/Norfolk"
+    },
+    {
+        "Id": "Antarctica/McMurdo",
+        "Display": "(UTC+12:00) Antártida/McMurdo"
+    },
+    {
+        "Id": "Asia/Anadyr",
+        "Display": "(UTC+12:00) Asie /Anadyr"
+    },
+    {
+        "Id": "Asia/Kamchatka",
+        "Display": "(UTC+12:00) Asie /Kamtchatka"
+    },
+    {
+        "Id": "Pacific/Auckland",
+        "Display": "(UTC+12:00) Pacífico/Auckland"
+    },
+    {
+        "Id": "Pacific/Fiji",
+        "Display": "(UTC+12:00) Pacífico/Fidji"
+    },
+    {
+        "Id": "Pacific/Funafuti",
+        "Display": "(UTC+12:00) Pacífico/Funafuti"
+    },
+    {
+        "Id": "Pacific/Kwajalein",
+        "Display": "(UTC+12:00) Pacífico/Kwajalein"
+    },
+    {
+        "Id": "Pacific/Majuro",
+        "Display": "(UTC+12:00) Pacífico/Majuro"
+    },
+    {
+        "Id": "Pacific/Nauru",
+        "Display": "(UTC+12:00) Pacífico/Nauru"
+    },
+    {
+        "Id": "Pacific/Tarawa",
+        "Display": "(UTC+12:00) Pacífico/Tarawa"
+    },
+    {
+        "Id": "Pacific/Wake",
+        "Display": "(UTC+12:00) Pacífico/Wake"
+    },
+    {
+        "Id": "Pacific/Wallis",
+        "Display": "(UTC+12:00) Pacífico/Wallis"
+    },
+    {
+        "Id": "Pacific/Chatham",
+        "Display": "(UTC+12:45) Pacífico/Chatham"
+    },
+    {
+        "Id": "Pacific/Apia",
+        "Display": "(UTC+13:00) Pacífico/Apia"
+    },
+    {
+        "Id": "Pacific/Enderbury",
+        "Display": "(UTC+13:00) Pacífico/Enderbury"
+    },
+    {
+        "Id": "Pacific/Fakaofo",
+        "Display": "(UTC+13:00) Pacífico/Fakaofo"
+    },
+    {
+        "Id": "Pacific/Tongatapu",
+        "Display": "(UTC+13:00) Pacífico/Tongatapu"
+    },
+    {
+        "Id": "Pacific/Kiritimati",
+        "Display": "(UTC+14:00) Pacífico/Kiritimati"
+    }
+]

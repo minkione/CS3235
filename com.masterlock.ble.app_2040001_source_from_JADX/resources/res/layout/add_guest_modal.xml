@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/secondary_light" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingEnd="@dimen/space_m1">
+    <LinearLayout android:orientation="vertical" android:id="@+id/body_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/tulip" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:layout_marginBottom="@dimen/space_m2" android:text="@string/txt_add_guest_modal_desc" android:layout_marginStart="@dimen/space_m3" android:layout_marginEnd="@dimen/space_m3" style="@style/TextAppearance.AppCompat.Subhead"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/space_m1" android:paddingBottom="@dimen/space_m1" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/AppTheme.Footer.RightAligned">
+        <Button android:id="@+id/btn_existing_guest" android:text="@string/new_guest_method_selection_existing" style="@style/StackedButtonWidget"/>
+        <Button android:id="@+id/btn_add_from_contacts" android:text="@string/btn_add_from_contacts" style="@style/StackedButtonWidget"/>
+        <Button android:id="@+id/btn_enter_manually" android:text="@string/new_guest_method_selection_enter_details" style="@style/StackedButtonWidget"/>
+    </LinearLayout>
+</LinearLayout>

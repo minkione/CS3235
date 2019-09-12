@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.nav.settings.ChangeEmailView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/change_email_continue_btn" android:layout_alignParentTop="true" style="@style/AppTheme.BodyPanel">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m3" android:text="@string/change_email_current_email_address_label" style="@style/TextAppearance.AppCompat.Medium"/>
+                <TextView android:layout_gravity="center" android:id="@+id/current_email_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m0" style="@style/TextAppearance.AppCompat.Small"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_m5" android:text="@string/change_email_address_instruction" style="@style/Base.TextAppearance.AppCompat.Medium"/>
+                <EditText android:gravity="center" android:id="@+id/email_edit_text" android:layout_margin="@dimen/space_m2" android:hint="@string/change_email_placeholder" android:maxLength="254" android:inputType="textEmailAddress" style="@style/CustomEditTextStyleBlack"/>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:id="@+id/change_email_continue_btn" android:text="@string/settings_name_save" style="@style/Widget.AccountSettingsSaveButton"/>
+    </RelativeLayout>
+</com.masterlock.ble.app.view.nav.settings.ChangeEmailView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p003v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m0" app:cardUseCompatPadding="true">
+    <RelativeLayout android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rb_selection" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ll_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m0" android:layout_marginTop="@dimen/space_m0" android:layout_marginBottom="@dimen/space_m0" android:layout_toRightOf="@+id/rb_selection">
+            <TextView android:id="@+id/tv_from_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m1"/>
+            <TextView android:id="@+id/tv_to_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_m0" android:layout_marginTop="@dimen/space_m0" android:layout_marginBottom="@dimen/space_m0" android:layout_toRightOf="@+id/ll_text_container">
+            <TextView android:id="@+id/tv_from" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/space_m1"/>
+            <TextView android:id="@+id/tv_to" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.p003v7.widget.CardView>

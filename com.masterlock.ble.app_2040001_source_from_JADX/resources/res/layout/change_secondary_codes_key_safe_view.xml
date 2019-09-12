@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.masterlock.ble.app.view.lock.keysafe.ChangeSecondaryCodesKeySafeView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/black" android:id="@+id/state_text" android:paddingLeft="@dimen/space_m2" android:paddingTop="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:paddingBottom="@dimen/space_m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secondary_code_no_codes_instructions" style="@style/TextAppearance.AppCompat.Subhead"/>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.p003v7.widget.RecyclerView android:layout_gravity="center" android:id="@+id/recycler_secondary_codes" android:paddingLeft="@dimen/space_m2" android:paddingRight="@dimen/space_m2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:background="@color/off_white" android:layout_width="match_parent" android:layout_height="@dimen/footer_height" android:layout_marginTop="@dimen/shadow_margin" style="?attr/buttonBarStyle">
+        <Button android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/btn_add_secondary_code" android:layout_width="wrap_content" android:layout_height="match_parent" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</com.masterlock.ble.app.view.lock.keysafe.ChangeSecondaryCodesKeySafeView>

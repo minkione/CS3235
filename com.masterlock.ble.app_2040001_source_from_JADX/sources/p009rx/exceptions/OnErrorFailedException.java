@@ -1,0 +1,21 @@
+package p009rx.exceptions;
+
+/* renamed from: rx.exceptions.OnErrorFailedException */
+public class OnErrorFailedException extends RuntimeException {
+    private static final long serialVersionUID = -419289748403337611L;
+
+    public OnErrorFailedException(String str, Throwable th) {
+        if (th == null) {
+            th = new NullPointerException();
+        }
+        super(str, th);
+    }
+
+    public OnErrorFailedException(Throwable th) {
+        String message = th != null ? th.getMessage() : null;
+        if (th == null) {
+            th = new NullPointerException();
+        }
+        super(message, th);
+    }
+}
