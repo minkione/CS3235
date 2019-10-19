@@ -1,0 +1,26 @@
+Advertise with cloned MAC address
+Ws-slave address: 192.168.79.146
+peripheralid: 987bf35a3785
+advertisement file: devices/987bf35a3785_Master-Lock.20191009224142.adv.json
+EIR: 0201051107fb6db3e637446f84e4115b5d0100e094
+scanResponse: 0c094d6173746572204c6f636b11ff4b018e7b00005ca74224000056e3e85a
+on open
+poweredOn
+Noble MAC address : 98:7b:f3:5a:37:85
+initialized !
+waiting for interface to initialize...
+BLENO - on -> stateChange: poweredOn
+on -> advertisingStart: success
+setServices: success
+[7m[35m <<<<<<<<<<<<<<<< INITIALIZED >>>>>>>>>>>>>>>>>>>> [39m[27m
+Client connected: 71:ca:bd:f8:96:30
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913a809a2e0036c35ed202ca9d8c93e4f917e45f9949587f0866725615dd3c85c433be6bdd675f96fccc9cf34444c7451a195627c74dce8a9b38213b45d85d364aad64c230[39m[27m (   :  . 6 ^          _ IX  frV  <  3 k g_     DD E  V' M   8!;E ]6J d 0)
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000000000077b5000103b5bc842db009ab3f[39m[27m (     w       -   ?)
+[32m<< Read:   [39m1800 (Generic Access) -> 2a00 (Device Name ) : [7m[32m4d6173746572204c6f636b[39m[27m (Master Lock)
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010001debec8e432bac8ab07[39m[27m (       2    )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000025155927357dbdc469f15[39m[27m (   QU sW  F  )
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010001db5aa57062a442cbc7[39m[27m (    Z pb B  )

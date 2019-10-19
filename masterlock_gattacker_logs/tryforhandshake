@@ -1,0 +1,50 @@
+Advertise with cloned MAC address
+Ws-slave address: 192.168.79.146
+peripheralid: 987bf35a3785
+advertisement file: devices/987bf35a3785_Master-Lock.20191009224142.adv.json
+EIR: 0201051107fb6db3e637446f84e4115b5d0100e094
+scanResponse: 0c094d6173746572204c6f636b11ff4b018e7b00005ca74224000056e3e85a
+on open
+poweredOn
+Noble MAC address : 98:7b:f3:5a:37:85
+BLENO - on -> stateChange: poweredOn
+initialized !
+Static - start advertising
+on -> advertisingStart: success
+setServices: success
+[7m[35m <<<<<<<<<<<<<<<< INITIALIZED >>>>>>>>>>>>>>>>>>>> [39m[27m
+Client connected: 4c:ce:0f:fd:d1:aa
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913a809a2e0036c35ed202ca9d8c93e4f917e45f9949587f0866725615dd3c85c433be6bdd675f96fccc9cf34444c7451a195627c74dce8a9b38213b45d85d364aad64c230[39m[27m (   :  . 6 ^          _ IX  frV  <  3 k g_     DD E  V' M   8!;E ]6J d 0)
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000000000075630001d626f418208795e74c[39m[27m (     uc   &      L)
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m01000174344431bfb65ad5a4[39m[27m (   t4D1  Z  )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000002448c873256e19d68e6cf[39m[27m (   D  2V  h  )
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010001be98aae2c12aeff4a7[39m[27m (        *   )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000019d906ac56a50e0e250[39m[27m (     j jP  P)
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010001f512c884c382d695bd[39m[27m (            )
+[32m<< Read:   [39m1800 (Generic Access) -> 2a00 (Device Name ) : [7m[32m4d6173746572204c6f636b[39m[27m (Master Lock)
+Client disconnected: 4c:ce:0f:fd:d1:aa
+Client connected: 4c:ce:0f:fd:d1:aa
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913a809a2e0036c35ed202ca9d8c93e4f917e45f9949587f0866725615dd3c85c433be6bdd675f96fccc9cf34444c7451a195627c74dce8a9b38213b45d85d364aad64c230[39m[27m (   :  . 6 ^          _ IX  frV  <  3 k g_     DD E  V' M   8!;E ]6J d 0)
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000000000756a00014973a6cf508e076f46[39m[27m (     uj  Is  P  oF)
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0100015095fe3472bb9ce792[39m[27m (   P  4r    )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000002bfca7ba769bf9e563427[39m[27m (     { i  V4')
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010001b1498ab0d7cbf0b7f0[39m[27m (    I       )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000001e289e765e8fe9e3c40[39m[27m (      e   <@)
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010001d89d3471265ef20740[39m[27m (     4q&^  @)
+[32m<< Read:   [39m1800 (Generic Access) -> 2a00 (Device Name ) : [7m[32m4d6173746572204c6f636b[39m[27m (Master Lock)

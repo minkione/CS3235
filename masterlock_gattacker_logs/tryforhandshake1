@@ -1,0 +1,61 @@
+Advertise with cloned MAC address
+Ws-slave address: 192.168.79.146
+peripheralid: 987bf35a3785
+advertisement file: devices/987bf35a3785_Master-Lock.20191009224142.adv.json
+EIR: 0201051107fb6db3e637446f84e4115b5d0100e094
+scanResponse: 0c094d6173746572204c6f636b11ff4b018e7b00005ca74224000056e3e85a
+on open
+poweredOn
+Noble MAC address : 98:7b:f3:5a:37:85
+initialized !
+waiting for interface to initialize...
+BLENO - on -> stateChange: poweredOn
+on -> advertisingStart: success
+setServices: success
+[7m[35m <<<<<<<<<<<<<<<< INITIALIZED >>>>>>>>>>>>>>>>>>>> [39m[27m
+Client connected: 4a:38:dc:55:69:dc
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m51ff2c8965fbd6b49699e5f7f00bac7b1702935e1024b6b58b9ad0ceb93dbe6a748e10[39m[27m (Q , e          {   ^ $       = jt  )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m01[39m[27m ( )
+Client disconnected: 4a:38:dc:55:69:dc
+Client connected: 4a:38:dc:55:69:dc
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913fc8832c00366b8bbaf833b1bbf3295a6cf940d27bf083344bb72e2d8609e80b7051ff2c8965fbd6b49699e5f7f00bac7b1702935e1024b6b58b9ad0ceb93dbe6a748e10[39m[27m (   ?  , 6k   3   )Zl @ {  4K .-    pQ , e          {   ^ $       = jt  )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000000000077350001a8333ee5b628810375[39m[27m (     w5   3>  (  u)
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002e1e7069b9ed07ca45f30[39m[27m (         | _0)
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000002fbc60662b010250286d7[39m[27m (      b  %   )
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002c322fced56d5da265fa8[39m[27m (    "  V  &_ )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000001ebc85476b732512e17[39m[27m (     Tv 2Q. )
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m01000246392c7389ca9f070694[39m[27m (   F9,s      )
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913fc8832c00366b8bbaf833b1bbf3295a6cf940d27bf083344bb72e2d8609e80b7051ff2c8965fbd6b49699e5f7f00bac7b1702935e1024b6b58b9ad0ceb93dbe6a748e10[39m[27m (   ?  , 6k   3   )Zl @ {  4K .-    pQ , e          {   ^ $       = jt  )
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000000000773c00015f4a8477663e16ebde[39m[27m (     w<  _J wf>   )
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002ca4552b334f871cc8401[39m[27m (    ER 4 q   )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000002b63fc8e2bef33f5c5cfb[39m[27m (    ?    ?\\ )
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002bd14f3129f444d6a2d6a[39m[27m (        DMj-j)
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000010afda4b5b921c5f84c[39m[27m (        !  L)
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002ac6b864d7e20fc40c52e[39m[27m (    k M~  @ .)
+Client disconnected: 4a:38:dc:55:69:dc
+Client connected: 4a:38:dc:55:69:dc
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m51ff2c8965fbd6b49699e5f7f00bac7b1702935e1024b6b58b9ad0ceb93dbe6a748e10[39m[27m (Q , e          {   ^ $       = jt  )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m01[39m[27m ( )
+Client disconnected: 4a:38:dc:55:69:dc

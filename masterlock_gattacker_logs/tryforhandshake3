@@ -1,0 +1,28 @@
+Advertise with cloned MAC address
+Ws-slave address: 192.168.79.146
+peripheralid: 987bf35a3785
+advertisement file: devices/987bf35a3785_Master-Lock.20191009224142.adv.json
+EIR: 0201051107fb6db3e637446f84e4115b5d0100e094
+scanResponse: 0c094d6173746572204c6f636b11ff4b018e7b00005ca74224000056e3e85a
+on open
+poweredOn
+Noble MAC address : 98:7b:f3:5a:37:85
+BLENO - on -> stateChange: poweredOn
+initialized !
+Static - start advertising
+on -> advertisingStart: success
+setServices: success
+[7m[35m <<<<<<<<<<<<<<<< INITIALIZED >>>>>>>>>>>>>>>>>>>> [39m[27m
+Client connected: 4a:38:dc:55:69:dc
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+   987bf35a3785:94e000015d5b11e4846f4437e6b36dfb confirmed subscription state: 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913fc8832c00366b8bbaf833b1bbf3295a6cf940d27bf083344bb72e2d8609e80b7051ff2c8965fbd6b49699e5f7f00bac7b1702935e1024b6b58b9ad0ceb93dbe6a748e10[39m[27m (   ?  , 6k   3   )Zl @ {  4K .-    pQ , e          {   ^ $       = jt  )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000000000791e0001d0b12df637a3ad331d[39m[27m (     y     - 7  3 )
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002b2eed9d32b6eb3f37222[39m[27m (       +n  r")
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m0000029ffc0fb75b5c9cc0a959[39m[27m (       [\   Y)
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m010002267e9fecf20d833c4d03[39m[27m (   &~     <M )
+[32m<< Notify: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[32m000001afe376b5d9818afe1a[39m[27m (     v      )
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0100025b798932d654f1f66cee[39m[27m (   [y 2 T  l )
+[34m>> Subscribe: [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb
+[34m>> Write:  [39m94e000015d5b11e4846f4437e6b36dfb -> 94e000025d5b11e4846f4437e6b36dfb : [7m[34m0080913fc8832c00366b8bbaf833b1bbf3295a6cf940d27bf083344bb72e2d8609e80b7051ff2c8965fbd6b49699e5f7f00bac7b1702935e1024b6b58b9ad0ceb93dbe6a748e10[39m[27m (   ?  , 6k   3   )Zl @ {  4K .-    pQ , e          {   ^ $       = jt  )
+Client disconnected: 4a:38:dc:55:69:dc
