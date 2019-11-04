@@ -1,0 +1,25 @@
+2019-11-04 16:45:50.193 12424-14551/com.masterlock.ble.app D/Retrofit: ---> HTTP PUT https://api.masterlockvault.com/v5/guestpermissions/223f4c03-c810-4445-87a1-cf3a27558c1f/update?apikey=D2809461ED60823BDF510B420439FF3370BE85846073915DC99A87A847192FD4262D729CD62AEFF0721CA2F35F1CB88AA507BCE4BADB825E365A96C673B6B19AA88D09DDFF28D28C68A62FC453251BB8AD012F81F09A2C3E34468C5B7DEECB6CEEF510C032EA2437BBCD4030282AFA3C8804CABF901E364DBB9E507CE8BA54909461F2A6199F05CE55B785D37C8A6A8C4873BA9CB6B4B2CC9BF2D88CB5BF759ED995F4AC7C0F88F1A72949EC9A0386AAF12A6FD46BF3643E807F0242B429C8F40BE3129D&username=vinK283
+2019-11-04 16:45:50.193 12424-14551/com.masterlock.ble.app D/Retrofit: Accept-Language: en
+2019-11-04 16:45:50.193 12424-14551/com.masterlock.ble.app D/Retrofit: User-Agent: com.masterlock.android
+2019-11-04 16:45:50.193 12424-14551/com.masterlock.ble.app D/Retrofit: AppVersion: 2.5.0.2
+2019-11-04 16:45:50.193 12424-14551/com.masterlock.ble.app D/Retrofit: Content-Type: application/json; charset=UTF-8
+2019-11-04 16:45:50.193 12424-14551/com.masterlock.ble.app D/Retrofit: Content-Length: 304
+2019-11-04 16:45:50.194 12424-14551/com.masterlock.ble.app D/Retrofit: {
+      "Friday": true,
+      "ViewMode": "2",
+      "Id": "223f4c03-c810-4445-87a1-cf3a27558c1f",
+      "Monday": true,
+      "OpenShackle": false,
+      "Saturday": true,
+      "ScheduleType": "10",
+      "Sunday": true,
+      "Thursday": true,
+      "Tuesday": true,
+      "ViewLocation": true,
+      "ViewTemporaryCode": true,
+      "Wednesday": true
+    }
+
+
+
+{"Friday": true,, "ViewMode": "2", "Id": "223f4c03-c810-4445-87a1-cf3a27558c1f", "Monday": true, "OpenShackle": false, "Saturday": true, "ScheduleType": "10", "Sunday": true, "Thursday": true, "Tuesday": true, "ViewLocation": true, "ViewTemporaryCode": true, "Wednesday": true}

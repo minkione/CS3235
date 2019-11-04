@@ -1,0 +1,26 @@
+2019-11-04 15:47:22.978 12424-12632/com.masterlock.ble.app D/Retrofit: 
+---> HTTP POST https://api.masterlockvault.com/v5/product/5b439e4e-b0fd-4f42-b8dd-4016b43e0706/invitation?apikey=306CC699293DD5C91A88ABA6F9953FDEA3F531E6AD5441613ADD68FCB0C50802E365EE9881DCE090BA95331A2C9DD4CCCF619174AF2B04B8C380B8A13D8C6C519CCF7243E131A8C404A193850E9933EAC3C29581D1953FAD5FF63159F0C40604529BD014EA6DBDD169C921B5313043379E09471169D761E321A47483556319987994909235E5FA7E269FAD63EFB04D3AAF6F78D251F425B217AFE1ABE453CD7375F2D983763E135823F85FDDAC3EFE50346BBD8157F4061D904A966FE3F9E8671DE2DC76&username=vinK283
+Accept-Language: en
+User-Agent: com.masterlock.android
+AppVersion: 2.5.0.2
+Content-Type: application/json; charset=UTF-8
+Content-Length: 390
+{
+      "AlphaCountryCode": "US",
+      "FirstName": "aa",
+      "Friday": true,
+      "LastName": "bb",
+      "PreferedPermissionsMode": "1",
+      "Monday": true,
+      "OpenShackle": false,
+      "Organization": "cc",
+      "PhoneCountryCode": "1",
+      "Saturday": true,
+      "ScheduleType": "1",
+      "Sunday": true,
+      "Thursday": true,
+      "Tuesday": true,
+      "ViewLocation": true,
+      "ViewTemporaryCode": true,
+      "Wednesday": true
+}
