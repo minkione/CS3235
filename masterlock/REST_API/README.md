@@ -13,7 +13,7 @@ python3 masterlock_api.py
 ```
 ### Add a new guest with unlimited permissions
 ```sh
-python3 masterlock_api.py -n sah -N quel -o plaisir
+python3 masterlock_api.py -n FirstName -N LastName -o Organization
 ```
 
 ### Change some guest permissions:
