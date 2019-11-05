@@ -67,7 +67,6 @@ class MasterLockAPI:
 
     return self._get_response(s)
 
-
   def create_guest(self, productId, firstName, lastName, organization):
     # Setup query
     api_url = f"https://api.masterlockvault.com/v5/product/{productId}/invitation"
@@ -133,7 +132,6 @@ class MasterLockAPI:
                  i['GuestPermissions']['Id']])
 
     print(t.draw())
-
 
   def get_locks(self):
     # Setup query
